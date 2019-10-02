@@ -30959,7 +30959,7 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </sheet>
 <sheet>
 <plain>
-<text x="38" y="18" size="1.778" layer="97">3V3 deduction</text>
+<text x="38" y="18" size="1.778" layer="97">5V deduction</text>
 <text x="60.86" y="127.22" size="1.778" layer="97">todo: be able to switch between 3.3 and 5v?</text>
 </plain>
 <instances>
@@ -31287,7 +31287,35 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 <label x="58.32" y="51.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VINPOS" class="2">
+<net name="P5V" class="2">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="L7" gate="G$1" pin="2"/>
+<wire x1="187.86" y1="68.8" x2="182.78" y2="68.8" width="0.1524" layer="91"/>
+<wire x1="187.86" y1="68.8" x2="198.02" y2="68.8" width="0.1524" layer="91"/>
+<junction x="187.86" y="68.8"/>
+<label x="195.48" y="68.8" size="1.778" layer="95"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<junction x="198.02" y="68.8"/>
+<wire x1="198.02" y1="68.8" x2="203.1" y2="68.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N5V" class="2">
+<segment>
+<pinref part="D25" gate="G$1" pin="A"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="175.16" y1="45.94" x2="177.7" y2="45.94" width="0.1524" layer="91"/>
+<wire x1="177.7" y1="45.94" x2="182.78" y2="45.94" width="0.1524" layer="91"/>
+<junction x="177.7" y="45.94"/>
+<wire x1="182.78" y1="45.94" x2="182.78" y2="40.86" width="0.1524" layer="91"/>
+<label x="195.48" y="40.86" size="1.778" layer="95"/>
+<wire x1="182.78" y1="40.86" x2="190.4" y2="40.86" width="0.1524" layer="91"/>
+<pinref part="C44" gate="G$1" pin="2"/>
+<junction x="190.4" y="40.86"/>
+<wire x1="190.4" y1="40.86" x2="200.56" y2="40.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HVP_CW" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -31326,34 +31354,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 <wire x1="68.48" y1="71.34" x2="58.32" y2="71.34" width="0.1524" layer="91"/>
 <label x="58.32" y="71.34" size="1.778" layer="95"/>
 <pinref part="C45" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="P3V3" class="2">
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="L7" gate="G$1" pin="2"/>
-<wire x1="187.86" y1="68.8" x2="182.78" y2="68.8" width="0.1524" layer="91"/>
-<wire x1="187.86" y1="68.8" x2="198.02" y2="68.8" width="0.1524" layer="91"/>
-<junction x="187.86" y="68.8"/>
-<label x="195.48" y="68.8" size="1.778" layer="95"/>
-<pinref part="C43" gate="G$1" pin="2"/>
-<junction x="198.02" y="68.8"/>
-<wire x1="198.02" y1="68.8" x2="203.1" y2="68.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N3V3" class="2">
-<segment>
-<pinref part="D25" gate="G$1" pin="A"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="175.16" y1="45.94" x2="177.7" y2="45.94" width="0.1524" layer="91"/>
-<wire x1="177.7" y1="45.94" x2="182.78" y2="45.94" width="0.1524" layer="91"/>
-<junction x="177.7" y="45.94"/>
-<wire x1="182.78" y1="45.94" x2="182.78" y2="40.86" width="0.1524" layer="91"/>
-<label x="195.48" y="40.86" size="1.778" layer="95"/>
-<wire x1="182.78" y1="40.86" x2="190.4" y2="40.86" width="0.1524" layer="91"/>
-<pinref part="C44" gate="G$1" pin="2"/>
-<junction x="190.4" y="40.86"/>
-<wire x1="190.4" y1="40.86" x2="200.56" y2="40.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
