@@ -13850,6 +13850,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14278,6 +14282,20 @@ Other voltages?</text>
 <instance part="SUPPLY37" gate="GND" x="271.78" y="200.66" smashed="yes">
 <attribute name="VALUE" x="269.875" y="197.485" size="1.778" layer="96"/>
 </instance>
+<instance part="R13" gate="G$1" x="208.28" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.7814" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="211.582" y="179.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="215.9" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="214.4014" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="219.202" y="179.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+10" gate="1" x="215.9" y="190.5" smashed="yes">
+<attribute name="VALUE" x="218.44" y="193.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+12" gate="1" x="208.28" y="190.5" smashed="yes">
+<attribute name="VALUE" x="210.82" y="193.04" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14473,8 +14491,8 @@ Other voltages?</text>
 <net name="HILO_12" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="HILO"/>
-<wire x1="213.36" y1="76.2" x2="213.367" y2="68.9458" width="0.1524" layer="91"/>
-<label x="213.24" y="61.502" size="1.778" layer="95" rot="R90"/>
+<wire x1="213.36" y1="76.2" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<label x="213.36" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <label x="134.62" y="33.02" size="1.778" layer="95"/>
@@ -14510,15 +14528,21 @@ Other voltages?</text>
 <net name="EN12" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="EN12"/>
-<wire x1="215.9" y1="152.4" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="152.4" x2="215.9" y2="172.72" width="0.1524" layer="91"/>
 <label x="215.9" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="177.8" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="172.72" x2="215.9" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN34" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="EN34"/>
-<wire x1="218.44" y1="152.4" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="152.4" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
 <label x="218.44" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
+<wire x1="218.44" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="175.26" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14734,7 +14758,7 @@ Other voltages?</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GAIN34"/>
-<wire x1="208.28" y1="76.2" x2="208.2508" y2="65.922" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="76.2" x2="208.2508" y2="60.842" width="0.1524" layer="91"/>
 <label x="208.2" y="60.942" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -14778,8 +14802,8 @@ Other voltages?</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="CLMP34"/>
-<wire x1="210.82" y1="76.2" x2="210.7654" y2="65.122" width="0.1524" layer="91"/>
-<label x="210.74" y="60.142" size="1.778" layer="95" rot="R90"/>
+<wire x1="210.82" y1="76.2" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
+<label x="210.82" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VPS2_1" class="0">
@@ -14815,8 +14839,8 @@ Other voltages?</text>
 <net name="VPS4_1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VPS4"/>
-<wire x1="205.74" y1="76.2" x2="205.74" y2="68.072" width="0.1524" layer="91"/>
-<label x="205.74" y="60.706" size="1.778" layer="95" rot="R90"/>
+<wire x1="205.74" y1="76.2" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="205.74" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="L29" gate="G$1" pin="2"/>
@@ -15106,6 +15130,14 @@ Other voltages?</text>
 <segment>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="P+12" gate="1" pin="+5V"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="2">
