@@ -26321,14 +26321,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/VS-MBRS340-M3
 <part name="C180" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220n 100V"/>
 <part name="C181" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220n 100V"/>
 <part name="C182" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220n 100V"/>
-<part name="LVOUT_0" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_3" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_4" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_5" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_6" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="LVOUT_7" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
 <part name="C183" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220n 100V"/>
 <part name="C184" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220n 100V"/>
 <part name="C185" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220n 100V"/>
@@ -26372,8 +26364,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/VS-MBRS340-M3
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C10" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
-<part name="C11" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
-<part name="C12" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C13" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C14" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C15" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
@@ -26405,11 +26395,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/VS-MBRS340-M3
 <part name="C23" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C24" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012005009" value="22pF"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18nF"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="274"/>
 <part name="C26" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C27" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012005009" value="22pF"/>
-<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18nF"/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="274"/>
 <part name="D1" library="BAT64-04E6433" deviceset="BAT64-04E6433" device=""/>
 <part name="D2" library="BAT64-04E6433" deviceset="BAT64-04E6433" device=""/>
@@ -26523,6 +26513,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/VS-MBRS340-M3
 <part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1206 x7r 2.2uF 25V"/>
 <part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1206 x7r 2.2uF 25V"/>
 <part name="C47" library="samacsys" deviceset="CKG57NX5R1E476M500JH" device="" value="1206 x7r 47uF 25V"/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
+<attribute name="NET" value="R2_OUT_P"/>
+</part>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
+<attribute name="NET" value="R2_OUT_N"/>
+</part>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
+<attribute name="NET" value="R1_OUT_N"/>
+</part>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
+<attribute name="NET" value="R1_OUT_P"/>
+</part>
+<part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -26540,9 +26545,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/VS-MBRS340-M3
 <wire x1="335.788" y1="28.448" x2="379.476" y2="28.194" width="0.1524" layer="97"/>
 <wire x1="379.476" y1="28.194" x2="379.476" y2="99.314" width="0.1524" layer="97"/>
 <wire x1="379.476" y1="99.314" x2="335.788" y2="99.06" width="0.1524" layer="97"/>
-<text x="32.766" y="210.82" size="1.778" layer="97">todo: check input impedance matching network</text>
 <text x="19.304" y="100.584" size="1.778" layer="97">reading input + overvoltage protection</text>
-<text x="32.512" y="207.772" size="1.778" layer="97">todo: check if NC of ad8334 should be tied to ground?</text>
 <text x="350.2" y="161.62" size="1.778" layer="97">TODO:
 5V Entry
 GND Entry
@@ -26551,8 +26554,7 @@ Other voltages?</text>
 <text x="350.034" y="151.38" size="1.778" layer="97">todo: can we reuse power supplies?
 todo: are names correct over multiple sheets?</text>
 <text x="27.94" y="236.22" size="6.4516" layer="91">Channel 1,2</text>
-<text x="96.52" y="180.34" size="1.778" layer="91">TODO change impedance matching values</text>
-<text x="96.52" y="175.26" size="1.778" layer="91">TODO make ground symbols the same</text>
+<text x="147.32" y="220.98" size="1.778" layer="91">TODO make ground symbols the same</text>
 <text x="147.32" y="223.52" size="1.778" layer="91">TODO: Power supplies</text>
 </plain>
 <instances>
@@ -26561,15 +26563,15 @@ todo: are names correct over multiple sheets?</text>
 <attribute name="VALUE" x="227.33" y="149.86" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C5" gate="G$1" x="177.8" y="170.18" smashed="yes" rot="MR180">
-<attribute name="NAME" x="170.434" y="171.069" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="170.434" y="168.529" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="167.894" y="171.069" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="167.894" y="168.529" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C8" gate="G$1" x="190.5" y="68.58" smashed="yes">
-<attribute name="NAME" x="193.294" y="70.231" size="1.778" layer="95"/>
-<attribute name="VALUE" x="193.294" y="67.691" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="190.5" y="53.34" smashed="yes">
+<attribute name="NAME" x="193.294" y="54.991" size="1.778" layer="95"/>
+<attribute name="VALUE" x="193.294" y="52.451" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="190.5" y="60.96" smashed="yes">
-<attribute name="VALUE" x="187.96" y="58.42" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="190.5" y="48.26" smashed="yes">
+<attribute name="VALUE" x="187.96" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="149.86" y="91.44" smashed="yes">
 <attribute name="NAME" x="147.066" y="94.869" size="1.778" layer="95" rot="R180"/>
@@ -26578,14 +26580,6 @@ todo: are names correct over multiple sheets?</text>
 <instance part="C10" gate="G$1" x="149.86" y="139.7" smashed="yes">
 <attribute name="NAME" x="147.32" y="143.129" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="147.32" y="140.589" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C11" gate="G$1" x="198.12" y="187.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="195.58" y="182.245" size="1.778" layer="95"/>
-<attribute name="VALUE" x="195.58" y="179.705" size="1.778" layer="96"/>
-</instance>
-<instance part="C12" gate="G$1" x="198.12" y="195.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="195.58" y="202.565" size="1.778" layer="95"/>
-<attribute name="VALUE" x="195.58" y="200.025" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="274.32" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="275.082" y="154.94" size="1.778" layer="95"/>
@@ -26855,8 +26849,8 @@ todo: are names correct over multiple sheets?</text>
 <instance part="SUPPLY7" gate="GND" x="149.86" y="134.62" smashed="yes">
 <attribute name="VALUE" x="147.955" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="182.88" y="60.96" smashed="yes">
-<attribute name="VALUE" x="180.34" y="58.42" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="182.88" y="48.26" smashed="yes">
+<attribute name="VALUE" x="180.34" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="233.6546" y="89.027" smashed="yes">
 <attribute name="VALUE" x="231.1146" y="86.487" size="1.778" layer="96"/>
@@ -26900,6 +26894,33 @@ todo: are names correct over multiple sheets?</text>
 <attribute name="NAME" x="274.574" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="274.574" y="71.12" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY15" gate="G$1" x="299.72" y="149.86" smashed="yes">
+<attribute name="VALUE" x="300.99" y="149.098" size="1.778" layer="96" display="off"/>
+<attribute name="NET" x="302.26" y="149.098" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY16" gate="G$1" x="299.72" y="144.78" smashed="yes">
+<attribute name="VALUE" x="300.99" y="144.018" size="1.778" layer="96" display="off"/>
+<attribute name="NET" x="302.26" y="144.018" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY17" gate="G$1" x="299.72" y="83.82" smashed="yes">
+<attribute name="VALUE" x="300.99" y="83.058" size="1.778" layer="96" display="off"/>
+<attribute name="NET" x="302.26" y="83.058" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY18" gate="G$1" x="299.72" y="78.74" smashed="yes">
+<attribute name="VALUE" x="300.99" y="77.978" size="1.778" layer="96" display="off"/>
+<attribute name="NET" x="302.26" y="77.978" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY25" gate="GND" x="172.72" y="86.36" smashed="yes">
+<attribute name="VALUE" x="170.053" y="82.423" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="190.5" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.4614" y="158.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="188.722" y="158.75" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R9" gate="G$1" x="187.96" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.69" y="62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.69" y="67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26907,14 +26928,13 @@ todo: are names correct over multiple sheets?</text>
 <net name="R1_I" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="INH1"/>
-<label x="190.5" y="162.56" size="1.778" layer="95" rot="R90" align="bottom-right"/>
-<wire x1="190.5" y1="152.4" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="152.4" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="2">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="66.04" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -27023,10 +27043,18 @@ todo: are names correct over multiple sheets?</text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="182.88" y1="76.2" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="COM4"/>
-<wire x1="182.88" y1="73.66" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="73.66" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="76.2" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <junction x="182.88" y="73.66"/>
+<wire x1="185.42" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
+<junction x="185.42" y="73.66"/>
+<pinref part="IC1" gate="G$1" pin="NC_2"/>
+<wire x1="193.04" y1="73.66" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="NC_3"/>
+<wire x1="193.04" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="73.66" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<junction x="193.04" y="73.66"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -27061,6 +27089,10 @@ todo: are names correct over multiple sheets?</text>
 <pinref part="IC1" gate="G$1" pin="COM2"/>
 <wire x1="185.42" y1="152.4" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
 <junction x="185.42" y="154.94"/>
+<pinref part="IC1" gate="G$1" pin="NC_5"/>
+<wire x1="195.58" y1="152.4" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<junction x="187.96" y="154.94"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -27085,13 +27117,18 @@ todo: are names correct over multiple sheets?</text>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="NC"/>
+<wire x1="175.26" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="127" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="NC_1"/>
+<wire x1="172.72" y1="99.06" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
+<junction x="172.72" y="99.06"/>
+</segment>
 </net>
 <net name="R1_LO_N" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="LON1"/>
-<wire x1="198.12" y1="152.4" x2="198.1162" y2="160.5474" width="0.1524" layer="91"/>
-<label x="198.12" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="LON3"/>
 <wire x1="175.26" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
@@ -27106,15 +27143,6 @@ todo: are names correct over multiple sheets?</text>
 </segment>
 </net>
 <net name="R1_LO_P" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="LOP1"/>
-<label x="200.66" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="187.96" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="177.8" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="99.06" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
@@ -27184,99 +27212,19 @@ todo: are names correct over multiple sheets?</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="LMD4"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="76.2" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="R1_V1I_P" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VIP1"/>
-<label x="203.2" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
-<wire x1="203.2" y1="187.96" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="R1_V1I_N" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VIN1"/>
-<label x="205.74" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
-<wire x1="205.74" y1="152.4" x2="205.74" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="195.58" x2="203.2" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="76.2" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="60.96" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
+<junction x="190.5" y="60.96"/>
 </segment>
 </net>
 <net name="R1_V1O_P" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VOH1"/>
-<label x="259.08" y="129.54" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="129.54" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="129.54" x2="261.62" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="TP2_6" gate="G$1" pin="TP"/>
 <wire x1="358.902" y1="66.802" x2="351.028" y2="66.802" width="0.1524" layer="91"/>
 <label x="346.202" y="67.056" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="R1_V1O_N" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VOL1"/>
-<label x="259.08" y="127" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="127" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="144.78" x2="271.78" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="TP2_5" gate="G$1" pin="TP"/>
-<wire x1="358.902" y1="69.596" x2="351.028" y2="69.596" width="0.1524" layer="91"/>
-<label x="345.948" y="69.85" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="R1_V2I_P" class="0">
-<segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="149.86" x2="284.48" y2="149.86" width="0.1524" layer="91"/>
-<label x="281.94" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VIP3"/>
-<label x="114.3" y="106.68" size="1.778" layer="95"/>
-<wire x1="175.26" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="R1_V2I_N" class="0">
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="144.78" x2="284.48" y2="144.78" width="0.1524" layer="91"/>
-<label x="281.94" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VIN3"/>
-<label x="114.3" y="109.22" size="1.778" layer="95"/>
-<wire x1="175.26" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="109.22" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="R1_V2O_N" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VOL3"/>
-<label x="259.08" y="104.14" size="1.778" layer="95" rot="R180" align="top-left"/>
-<wire x1="231.14" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="104.14" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="99.06" x2="271.78" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="TP2_7" gate="G$1" pin="TP"/>
-<wire x1="359.156" y1="60.96" x2="351.79" y2="60.96" width="0.1524" layer="91"/>
-<label x="346.202" y="61.468" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="R1_V2O_P" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VOH3"/>
 <label x="259.08" y="106.68" size="1.778" layer="95" rot="R180" align="top-left"/>
@@ -27285,6 +27233,54 @@ todo: are names correct over multiple sheets?</text>
 <wire x1="269.24" y1="104.14" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="R1_V1O_N" class="0">
+<segment>
+<pinref part="TP2_5" gate="G$1" pin="TP"/>
+<wire x1="358.902" y1="69.596" x2="351.028" y2="69.596" width="0.1524" layer="91"/>
+<label x="345.948" y="69.85" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VOL3"/>
+<label x="259.08" y="104.14" size="1.778" layer="95" rot="R180" align="top-left"/>
+<wire x1="231.14" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="104.14" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="99.06" x2="271.78" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="R1_V2I_P" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIP4"/>
+<wire x1="200.66" y1="76.2" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="200.66" y="60.96" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="99.06" x2="299.72" y2="99.06" width="0.1524" layer="91"/>
+<label x="281.94" y="99.06" size="1.778" layer="95"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="R1_V2I_N" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIN4"/>
+<wire x1="203.2" y1="76.2" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
+<label x="203.2" y="60.96" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="104.14" x2="299.72" y2="104.14" width="0.1524" layer="91"/>
+<label x="281.94" y="104.14" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="R1_V2O_N" class="0">
+<segment>
+<pinref part="TP2_7" gate="G$1" pin="TP"/>
+<wire x1="359.156" y1="60.96" x2="351.79" y2="60.96" width="0.1524" layer="91"/>
+<label x="346.202" y="61.468" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="R1_V2O_P" class="0">
 <segment>
 <pinref part="TP2_8" gate="G$1" pin="TP"/>
 <wire x1="359.156" y1="58.166" x2="351.79" y2="58.166" width="0.1524" layer="91"/>
@@ -27365,26 +27361,26 @@ todo: are names correct over multiple sheets?</text>
 </net>
 <net name="R2_V2I_N" class="0">
 <segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="127" x2="284.48" y2="127" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="127" x2="299.72" y2="127" width="0.1524" layer="91"/>
 <label x="281.94" y="127" size="1.778" layer="95"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VIN4"/>
-<wire x1="203.2" y1="76.2" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="203.2" y="50.8" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC1" gate="G$1" pin="VIN1"/>
+<label x="205.74" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
+<wire x1="205.74" y1="152.4" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R2_V2I_P" class="0">
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="121.92" x2="284.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
 <label x="281.94" y="121.92" size="1.778" layer="95"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VIP4"/>
-<wire x1="200.66" y1="76.2" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="200.66" y="50.8" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC1" gate="G$1" pin="VIP1"/>
+<label x="203.2" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
+<wire x1="203.2" y1="175.26" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="2">
@@ -27600,6 +27596,14 @@ todo: are names correct over multiple sheets?</text>
 <wire x1="359.156" y1="42.418" x2="351.79" y2="42.418" width="0.1524" layer="91"/>
 <label x="346.202" y="42.926" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VOL1"/>
+<label x="259.08" y="127" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="127" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="144.78" x2="271.78" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="R2_V2O_P" class="0">
 <segment>
@@ -27614,6 +27618,14 @@ todo: are names correct over multiple sheets?</text>
 <pinref part="TP2_12" gate="G$1" pin="TP"/>
 <wire x1="359.156" y1="39.624" x2="351.79" y2="39.624" width="0.1524" layer="91"/>
 <label x="346.71" y="39.624" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VOH1"/>
+<label x="259.08" y="129.54" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="129.54" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="129.54" x2="261.62" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VPS34_1" class="0">
@@ -27638,7 +27650,7 @@ todo: are names correct over multiple sheets?</text>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="170.18" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <junction x="76.2" y="170.18"/>
-<label x="167.64" y="132.08" size="1.778" layer="95"/>
+<label x="114.3" y="170.18" size="1.778" layer="95"/>
 <wire x1="175.26" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="INH2"/>
@@ -27673,7 +27685,7 @@ todo: are names correct over multiple sheets?</text>
 <net name="INH4" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
-<label x="86.36" y="68.58" size="1.778" layer="95"/>
+<label x="114.3" y="68.58" size="1.778" layer="95"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="C28" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="INH3"/>
@@ -27752,19 +27764,67 @@ todo: are names correct over multiple sheets?</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
+<junction x="190.5" y="172.72"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="172.72" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="IC1" gate="G$1" pin="LMD1"/>
 <wire x1="193.04" y1="172.72" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="R1_OUT_N" class="0">
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="83.82" x2="299.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="281.94" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="R1_OUT_P" class="0">
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="281.94" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="R1_V1I_N" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIN3"/>
+<label x="114.3" y="109.22" size="1.778" layer="95"/>
+<wire x1="175.26" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="109.22" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="R1_V1I_P" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIP3"/>
+<label x="114.3" y="106.68" size="1.778" layer="95"/>
+<wire x1="175.26" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="R2_OUT_P" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="149.86" x2="299.72" y2="149.86" width="0.1524" layer="91"/>
+<label x="281.94" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="R2_OUT_N" class="0">
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="144.78" x2="299.72" y2="144.78" width="0.1524" layer="91"/>
+<label x="281.94" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="195.58" x2="190.5" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="195.58" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="175.26" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="175.26" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="INH4"/>
+<wire x1="187.96" y1="71.12" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -28580,11 +28640,6 @@ todo: are names correct over multiple sheets?</text>
 <wire x1="0.74" y1="0.46" x2="229.34" y2="0.46" width="0.1524" layer="98"/>
 <wire x1="229.34" y1="0.46" x2="229.34" y2="206.2" width="0.1524" layer="98"/>
 <wire x1="229.34" y1="206.2" x2="0.74" y2="206.2" width="0.1524" layer="98"/>
-<wire x1="83" y1="50" x2="83" y2="2" width="0.1524" layer="97"/>
-<wire x1="83" y1="2" x2="141" y2="2" width="0.1524" layer="97"/>
-<wire x1="141" y1="2" x2="141" y2="50" width="0.1524" layer="97"/>
-<wire x1="141" y1="50" x2="83" y2="50" width="0.1524" layer="97"/>
-<text x="84" y="3" size="1.778" layer="97">TODO: still wanted?</text>
 <text x="3" y="223" size="1.778" layer="97">TODO: add the same once more for 16 channels
 TODO: separate inx_1</text>
 </plain>
@@ -28654,38 +28709,6 @@ TODO: separate inx_1</text>
 <instance part="C182" gate="G$1" x="170.92" y="112.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="170.539" y="113.744" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="175.619" y="113.744" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LVOUT_0" gate="G$1" x="94.72" y="41.1" smashed="yes">
-<attribute name="VALUE" x="92.18" y="36.02" size="1.778" layer="96"/>
-<attribute name="NAME" x="92.18" y="44.402" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_1" gate="G$1" x="94.72" y="30.94" smashed="yes">
-<attribute name="VALUE" x="92.18" y="25.86" size="1.778" layer="96"/>
-<attribute name="NAME" x="92.18" y="34.242" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_2" gate="G$1" x="94.72" y="20.78" smashed="yes">
-<attribute name="VALUE" x="92.18" y="15.7" size="1.778" layer="96"/>
-<attribute name="NAME" x="92.18" y="24.082" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_3" gate="G$1" x="94.72" y="10.62" smashed="yes">
-<attribute name="VALUE" x="92.18" y="5.54" size="1.778" layer="96"/>
-<attribute name="NAME" x="92.18" y="13.922" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_4" gate="G$1" x="117.58" y="41.1" smashed="yes">
-<attribute name="VALUE" x="115.04" y="36.02" size="1.778" layer="96"/>
-<attribute name="NAME" x="115.04" y="44.402" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_5" gate="G$1" x="117.58" y="30.94" smashed="yes">
-<attribute name="VALUE" x="115.04" y="25.86" size="1.778" layer="96"/>
-<attribute name="NAME" x="115.04" y="34.242" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_6" gate="G$1" x="117.58" y="20.78" smashed="yes">
-<attribute name="VALUE" x="115.04" y="15.7" size="1.778" layer="96"/>
-<attribute name="NAME" x="115.04" y="24.082" size="1.778" layer="95"/>
-</instance>
-<instance part="LVOUT_7" gate="G$1" x="117.58" y="10.62" smashed="yes">
-<attribute name="VALUE" x="115.04" y="5.54" size="1.778" layer="96"/>
-<attribute name="NAME" x="115.04" y="13.922" size="1.778" layer="95"/>
 </instance>
 <instance part="C183" gate="G$1" x="54.08" y="94.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.461" y="92.916" size="1.778" layer="95" rot="R270"/>
@@ -28951,38 +28974,6 @@ TODO: separate inx_1</text>
 <pinref part="STHV_0" gate="G$1" pin="AGND"/>
 <wire x1="158.22" y1="91.9" x2="160.76" y2="91.9" width="0.1524" layer="91"/>
 <label x="160.76" y="91.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LVOUT_1" gate="G$1" pin="2"/>
-<wire x1="97.26" y1="28.4" x2="99.8" y2="28.4" width="0.1524" layer="91"/>
-<pinref part="LVOUT_2" gate="G$1" pin="2"/>
-<wire x1="99.8" y1="28.4" x2="99.8" y2="18.24" width="0.1524" layer="91"/>
-<wire x1="99.8" y1="18.24" x2="97.26" y2="18.24" width="0.1524" layer="91"/>
-<pinref part="LVOUT_3" gate="G$1" pin="2"/>
-<wire x1="97.26" y1="8.08" x2="99.8" y2="8.08" width="0.1524" layer="91"/>
-<wire x1="99.8" y1="8.08" x2="99.8" y2="18.24" width="0.1524" layer="91"/>
-<junction x="99.8" y="18.24"/>
-<pinref part="LVOUT_0" gate="G$1" pin="2"/>
-<wire x1="97.26" y1="38.56" x2="99.8" y2="38.56" width="0.1524" layer="91"/>
-<wire x1="99.8" y1="38.56" x2="99.8" y2="28.4" width="0.1524" layer="91"/>
-<junction x="99.8" y="28.4"/>
-<label x="99.8" y="28.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LVOUT_4" gate="G$1" pin="2"/>
-<wire x1="120.12" y1="38.56" x2="122.66" y2="38.56" width="0.1524" layer="91"/>
-<wire x1="122.66" y1="38.56" x2="122.66" y2="28.4" width="0.1524" layer="91"/>
-<pinref part="LVOUT_5" gate="G$1" pin="2"/>
-<wire x1="122.66" y1="28.4" x2="120.12" y2="28.4" width="0.1524" layer="91"/>
-<pinref part="LVOUT_6" gate="G$1" pin="2"/>
-<wire x1="120.12" y1="18.24" x2="122.66" y2="18.24" width="0.1524" layer="91"/>
-<wire x1="122.66" y1="18.24" x2="122.66" y2="28.4" width="0.1524" layer="91"/>
-<junction x="122.66" y="28.4"/>
-<pinref part="LVOUT_7" gate="G$1" pin="2"/>
-<wire x1="120.12" y1="8.08" x2="122.66" y2="8.08" width="0.1524" layer="91"/>
-<wire x1="122.66" y1="8.08" x2="122.66" y2="18.24" width="0.1524" layer="91"/>
-<junction x="122.66" y="18.24"/>
-<label x="122.66" y="28.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND_1" gate="G$1" pin="TP"/>
@@ -29265,22 +29256,12 @@ TODO: separate inx_1</text>
 <wire x1="112.5" y1="66.5" x2="112.5" y2="63.96" width="0.1524" layer="91"/>
 <label x="112.5" y="53.8" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="LVOUT_5" gate="G$1" pin="1"/>
-<wire x1="120.12" y1="30.94" x2="120.12" y2="33.48" width="0.1524" layer="91"/>
-<label x="120.12" y="30.94" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="LVOUT_6" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_7"/>
 <wire x1="115.04" y1="66.5" x2="115.04" y2="63.96" width="0.1524" layer="91"/>
 <label x="115.04" y="53.8" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LVOUT_6" gate="G$1" pin="1"/>
-<wire x1="120.12" y1="20.78" x2="120.12" y2="23.32" width="0.1524" layer="91"/>
-<label x="120.12" y="20.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LVOUT_3" class="0">
@@ -29289,22 +29270,12 @@ TODO: separate inx_1</text>
 <wire x1="109.96" y1="135.08" x2="109.96" y2="137.62" width="0.1524" layer="91"/>
 <label x="109.96" y="135.08" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="LVOUT_3" gate="G$1" pin="1"/>
-<wire x1="97.26" y1="10.62" x2="97.26" y2="13.16" width="0.1524" layer="91"/>
-<label x="97.26" y="10.62" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="LVOUT_2" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_3"/>
 <wire x1="112.5" y1="135.08" x2="112.5" y2="137.62" width="0.1524" layer="91"/>
 <label x="112.5" y="135.08" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LVOUT_2" gate="G$1" pin="1"/>
-<wire x1="97.26" y1="20.78" x2="97.26" y2="23.32" width="0.1524" layer="91"/>
-<label x="97.26" y="20.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LVOUT_1" class="0">
@@ -29313,22 +29284,12 @@ TODO: separate inx_1</text>
 <wire x1="115.04" y1="135.08" x2="115.04" y2="137.62" width="0.1524" layer="91"/>
 <label x="115.04" y="135.08" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="LVOUT_1" gate="G$1" pin="1"/>
-<wire x1="97.26" y1="30.94" x2="97.26" y2="33.48" width="0.1524" layer="91"/>
-<label x="97.26" y="30.94" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="LVOUT_0" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_1"/>
 <wire x1="117.58" y1="135.08" x2="117.58" y2="137.62" width="0.1524" layer="91"/>
 <label x="117.58" y="135.08" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LVOUT_0" gate="G$1" pin="1"/>
-<wire x1="97.26" y1="41.1" x2="97.26" y2="43.64" width="0.1524" layer="91"/>
-<label x="97.26" y="41.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LVOUT0" gate="G$1" pin="TP"/>
@@ -29425,22 +29386,12 @@ TODO: separate inx_1</text>
 </net>
 <net name="LVOUT_4" class="0">
 <segment>
-<pinref part="LVOUT_4" gate="G$1" pin="1"/>
-<wire x1="120.12" y1="41.1" x2="120.12" y2="43.64" width="0.1524" layer="91"/>
-<label x="120.12" y="41.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_5"/>
 <wire x1="109.96" y1="66.5" x2="109.96" y2="63.96" width="0.1524" layer="91"/>
 <label x="109.96" y="53.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="LVOUT_7" class="0">
-<segment>
-<pinref part="LVOUT_7" gate="G$1" pin="1"/>
-<wire x1="120.12" y1="10.62" x2="120.12" y2="13.16" width="0.1524" layer="91"/>
-<label x="120.12" y="10.62" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_8"/>
 <wire x1="117.58" y1="66.5" x2="117.58" y2="63.96" width="0.1524" layer="91"/>
