@@ -9135,7 +9135,7 @@ design rules under a new name.
 </element>
 <element name="RECEIVER4:ADC2:ADC1" library="wouter" library_urn="urn:adsk.eagle:library:7442707" package="QFN32" package3d_urn="urn:adsk.eagle:package:12631503/1" value="LTC2344-16" x="-177.8" y="40.64" smashed="yes">
 <attribute name="NAME" x="-181.6" y="43.89" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-181.85" y="2037.08" size="1.27" layer="27"/>
+<attribute name="VALUE" x="-181.85" y="0" size="1.27" layer="27"/>
 </element>
 <element name="RECEIVER4:ADC2:C139" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="-0.635" y="0.635" size="1.27" layer="25"/>
@@ -9426,14 +9426,14 @@ design rules under a new name.
 <attribute name="VALUE" x="0" y="0" size="1.27" layer="27" align="center"/>
 </element>
 <element name="RECEIVER4:S1:JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="-299.72" y="39.37" smashed="yes">
-<attribute name="NAME" x="-301.371" y="2037.08" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="-301.371" y="0" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="61" x="-299.72" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-296.799" y="2037.08" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-296.799" y="0" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="RECEIVER4:S1:JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="-307.34" y="39.37" smashed="yes">
-<attribute name="NAME" x="-308.991" y="2037.08" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="-308.991" y="0" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="61" x="-307.34" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-304.419" y="2037.08" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-304.419" y="0" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="RECEIVER4:S1:L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L2012C" package3d_urn="urn:adsk.eagle:package:23475/2" value="BLM21AG121SN1D" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="-1.905" y="1.27" size="1.27" layer="25"/>
@@ -9802,14 +9802,14 @@ design rules under a new name.
 <attribute name="VALUE" x="0" y="0" size="1.27" layer="27" align="center"/>
 </element>
 <element name="RECEIVER4:S2:JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="-419.1" y="39.37" smashed="yes">
-<attribute name="NAME" x="-420.751" y="2037.08" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="-420.751" y="0" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="61" x="-419.1" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-416.179" y="2037.08" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-416.179" y="0" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="RECEIVER4:S2:JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="-426.72" y="39.37" smashed="yes">
-<attribute name="NAME" x="-428.371" y="2037.08" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="-428.371" y="0" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="61" x="-426.72" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-423.799" y="2037.08" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-423.799" y="0" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="RECEIVER4:S2:L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L2012C" package3d_urn="urn:adsk.eagle:package:23475/2" value="BLM21AG121SN1D" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="-1.905" y="1.27" size="1.27" layer="25"/>
@@ -11936,20 +11936,20 @@ design rules under a new name.
 <wire x1="-105.41" y1="-248.92" x2="-96.85" y2="-212.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER1:ADC2:GND" class="2">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="9"/>
-<contactref element="RECEIVER1:ADC2:ADC1" pad="11"/>
 <contactref element="RECEIVER1:ADC2:ADC1" pad="20"/>
-<contactref element="RECEIVER1:ADC2:ADC1" pad="29"/>
-<contactref element="RECEIVER1:ADC2:ADC1" pad="31"/>
-<contactref element="RECEIVER1:ADC2:ADC1" pad="32"/>
 <contactref element="RECEIVER1:ADC2:C139" pad="2"/>
 <contactref element="RECEIVER1:ADC2:C140" pad="2"/>
-<contactref element="RECEIVER1:ADC2:ADC1" pad="13"/>
-<contactref element="RECEIVER1:ADC2:ADC1" pad="14"/>
 <contactref element="RECEIVER1:ADC2:C141" pad="2"/>
 <contactref element="RECEIVER1:ADC2:C142" pad="2"/>
 <contactref element="RECEIVER1:ADC2:ADC1" pad="EXP"/>
 <contactref element="RECEIVER1:ADC2:C143" pad="2"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="13"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="9"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="11"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="14"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="31"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="32"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="29"/>
 <wire x1="-8.14" y1="-84.85" x2="14.1" y2="-124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.64" y1="-84.85" x2="-8.14" y2="-84.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.64" y1="-84.85" x2="-8.64" y2="-84.85" width="0" layer="19" extent="1-1"/>
@@ -11974,42 +11974,15 @@ design rules under a new name.
 <contactref element="RECEIVER1:ADC2:C140" pad="1"/>
 <wire x1="-9.14" y1="-84.85" x2="11.3" y2="-124.46" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RECEIVER1:ADC2:CNV">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="15"/>
-</signal>
-<signal name="RECEIVER1:ADC2:BUSY">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="26"/>
-</signal>
 <signal name="RECEIVER1:ADC2:N$83">
 <contactref element="RECEIVER1:ADC2:C141" pad="1"/>
 <contactref element="RECEIVER1:ADC2:ADC1" pad="28"/>
 <wire x1="-88.28" y1="-217.17" x2="-8.64" y2="-80.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER1:ADC2:5V" class="2">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="30"/>
 <contactref element="RECEIVER1:ADC2:C142" pad="1"/>
+<contactref element="RECEIVER1:ADC2:ADC1" pad="30"/>
 <wire x1="-65.42" y1="-217.17" x2="-9.64" y2="-80.25" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="RECEIVER1:ADC2:SDO0">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="17"/>
-</signal>
-<signal name="RECEIVER1:ADC2:SDO1">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="18"/>
-</signal>
-<signal name="RECEIVER1:ADC2:SDO2">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="23"/>
-</signal>
-<signal name="RECEIVER1:ADC2:SDO3">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="24"/>
-</signal>
-<signal name="RECEIVER1:ADC2:SCKI">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="19"/>
-</signal>
-<signal name="RECEIVER1:ADC2:/CS">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="27"/>
-</signal>
-<signal name="RECEIVER1:ADC2:SDI">
-<contactref element="RECEIVER1:ADC2:ADC1" pad="25"/>
 </signal>
 <signal name="RECEIVER1:ADC2:ADIN1_P">
 <contactref element="RECEIVER1:ADC2:ADC1" pad="8"/>
@@ -13831,28 +13804,28 @@ design rules under a new name.
 <wire x1="568.96" y1="-50.8" x2="568.63" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER2:ADC2:GND" class="2">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="9"/>
-<contactref element="RECEIVER2:ADC2:ADC1" pad="11"/>
 <contactref element="RECEIVER2:ADC2:ADC1" pad="20"/>
-<contactref element="RECEIVER2:ADC2:ADC1" pad="29"/>
-<contactref element="RECEIVER2:ADC2:ADC1" pad="31"/>
-<contactref element="RECEIVER2:ADC2:ADC1" pad="32"/>
 <contactref element="RECEIVER2:ADC2:C139" pad="2"/>
 <contactref element="RECEIVER2:ADC2:C140" pad="2"/>
-<contactref element="RECEIVER2:ADC2:ADC1" pad="13"/>
-<contactref element="RECEIVER2:ADC2:ADC1" pad="14"/>
 <contactref element="RECEIVER2:ADC2:C141" pad="2"/>
 <contactref element="RECEIVER2:ADC2:C142" pad="2"/>
 <contactref element="RECEIVER2:ADC2:ADC1" pad="EXP"/>
 <contactref element="RECEIVER2:ADC2:C143" pad="2"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="13"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="9"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="11"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="14"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="31"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="32"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="29"/>
 <wire x1="276.86" y1="-76.2" x2="279.16" y2="-76.45" width="0" layer="19" extent="1-1"/>
-<wire x1="276.61" y1="-73.9" x2="276.86" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="275.61" y1="-73.9" x2="276.61" y2="-73.9" width="0" layer="19" extent="1-1"/>
-<wire x1="275.11" y1="-73.9" x2="275.61" y2="-73.9" width="0" layer="19" extent="1-1"/>
 <wire x1="277.11" y1="-78.5" x2="276.86" y2="-76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="277.61" y1="-78.5" x2="277.11" y2="-78.5" width="0" layer="19" extent="1-1"/>
 <wire x1="276.11" y1="-78.5" x2="277.11" y2="-78.5" width="0" layer="19" extent="1-1"/>
 <wire x1="275.11" y1="-78.5" x2="276.11" y2="-78.5" width="0" layer="19" extent="1-1"/>
+<wire x1="276.61" y1="-73.9" x2="276.86" y2="-76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="275.61" y1="-73.9" x2="276.61" y2="-73.9" width="0" layer="19" extent="1-1"/>
+<wire x1="275.11" y1="-73.9" x2="275.61" y2="-73.9" width="0" layer="19" extent="1-1"/>
 <wire x1="274.97" y1="-83.82" x2="275.11" y2="-78.5" width="0" layer="19" extent="1-1"/>
 <wire x1="276.99" y1="-90.17" x2="274.97" y2="-83.82" width="0" layer="19" extent="1-1"/>
 <wire x1="274.97" y1="-96.52" x2="276.99" y2="-90.17" width="0" layer="19" extent="1-1"/>
@@ -13869,42 +13842,15 @@ design rules under a new name.
 <contactref element="RECEIVER2:ADC2:C140" pad="1"/>
 <wire x1="274.19" y1="-90.17" x2="276.61" y2="-78.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RECEIVER2:ADC2:CNV">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="15"/>
-</signal>
-<signal name="RECEIVER2:ADC2:BUSY">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="26"/>
-</signal>
 <signal name="RECEIVER2:ADC2:N$83">
 <contactref element="RECEIVER2:ADC2:C141" pad="1"/>
 <contactref element="RECEIVER2:ADC2:ADC1" pad="28"/>
 <wire x1="273.67" y1="-96.52" x2="277.11" y2="-73.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER2:ADC2:5V" class="2">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="30"/>
 <contactref element="RECEIVER2:ADC2:C142" pad="1"/>
+<contactref element="RECEIVER2:ADC2:ADC1" pad="30"/>
 <wire x1="273.67" y1="-101.6" x2="276.11" y2="-73.9" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="RECEIVER2:ADC2:SDO0">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="17"/>
-</signal>
-<signal name="RECEIVER2:ADC2:SDO1">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="18"/>
-</signal>
-<signal name="RECEIVER2:ADC2:SDO2">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="23"/>
-</signal>
-<signal name="RECEIVER2:ADC2:SDO3">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="24"/>
-</signal>
-<signal name="RECEIVER2:ADC2:SCKI">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="19"/>
-</signal>
-<signal name="RECEIVER2:ADC2:/CS">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="27"/>
-</signal>
-<signal name="RECEIVER2:ADC2:SDI">
-<contactref element="RECEIVER2:ADC2:ADC1" pad="25"/>
 </signal>
 <signal name="RECEIVER2:ADC2:ADIN1_P">
 <contactref element="RECEIVER2:ADC2:ADC1" pad="8"/>
@@ -14942,29 +14888,29 @@ design rules under a new name.
 <wire x1="3.81" y1="0" x2="1.27" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER3:ADC2:GND" class="2">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="9"/>
-<contactref element="RECEIVER3:ADC2:ADC1" pad="11"/>
 <contactref element="RECEIVER3:ADC2:ADC1" pad="20"/>
-<contactref element="RECEIVER3:ADC2:ADC1" pad="29"/>
-<contactref element="RECEIVER3:ADC2:ADC1" pad="31"/>
-<contactref element="RECEIVER3:ADC2:ADC1" pad="32"/>
 <contactref element="RECEIVER3:ADC2:C139" pad="2"/>
 <contactref element="RECEIVER3:ADC2:C140" pad="2"/>
-<contactref element="RECEIVER3:ADC2:ADC1" pad="13"/>
-<contactref element="RECEIVER3:ADC2:ADC1" pad="14"/>
 <contactref element="RECEIVER3:ADC2:C141" pad="2"/>
 <contactref element="RECEIVER3:ADC2:C142" pad="2"/>
 <contactref element="RECEIVER3:ADC2:ADC1" pad="EXP"/>
 <contactref element="RECEIVER3:ADC2:C143" pad="2"/>
-<wire x1="-191.25" y1="-64.53" x2="-192.25" y2="-64.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-190.25" y1="-64.53" x2="-191.25" y2="-64.53" width="0" layer="19" extent="1-1"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="13"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="9"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="11"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="14"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="31"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="32"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="29"/>
+<wire x1="-190.25" y1="-64.53" x2="-190.5" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-189.75" y1="-64.53" x2="-190.25" y2="-64.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-190.5" y1="-62.23" x2="-190.25" y2="-64.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-191.25" y1="-64.53" x2="-190.25" y2="-64.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-192.25" y1="-64.53" x2="-191.25" y2="-64.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-188.2" y1="-62.48" x2="-190.5" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-190.75" y1="-59.93" x2="-190.5" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-191.75" y1="-59.93" x2="-190.75" y2="-59.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-192.25" y1="-59.93" x2="-191.75" y2="-59.93" width="0" layer="19" extent="1-1"/>
-<wire x1="0.65" y1="0" x2="-190.75" y2="-59.93" width="0" layer="19" extent="1-1"/>
+<wire x1="0.65" y1="0" x2="-188.2" y2="-62.48" width="0" layer="19" extent="1-1"/>
 <wire x1="1.4" y1="0" x2="0.65" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER3:ADC2:N$81">
@@ -14977,42 +14923,15 @@ design rules under a new name.
 <contactref element="RECEIVER3:ADC2:C140" pad="1"/>
 <wire x1="-1.4" y1="0" x2="-190.75" y2="-64.53" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RECEIVER3:ADC2:CNV">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="15"/>
-</signal>
-<signal name="RECEIVER3:ADC2:BUSY">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="26"/>
-</signal>
 <signal name="RECEIVER3:ADC2:N$83">
 <contactref element="RECEIVER3:ADC2:C141" pad="1"/>
 <contactref element="RECEIVER3:ADC2:ADC1" pad="28"/>
 <wire x1="-0.65" y1="0" x2="-190.25" y2="-59.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER3:ADC2:5V" class="2">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="30"/>
 <contactref element="RECEIVER3:ADC2:C142" pad="1"/>
+<contactref element="RECEIVER3:ADC2:ADC1" pad="30"/>
 <wire x1="-0.65" y1="0" x2="-191.25" y2="-59.93" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="RECEIVER3:ADC2:SDO0">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="17"/>
-</signal>
-<signal name="RECEIVER3:ADC2:SDO1">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="18"/>
-</signal>
-<signal name="RECEIVER3:ADC2:SDO2">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="23"/>
-</signal>
-<signal name="RECEIVER3:ADC2:SDO3">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="24"/>
-</signal>
-<signal name="RECEIVER3:ADC2:SCKI">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="19"/>
-</signal>
-<signal name="RECEIVER3:ADC2:/CS">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="27"/>
-</signal>
-<signal name="RECEIVER3:ADC2:SDI">
-<contactref element="RECEIVER3:ADC2:ADC1" pad="25"/>
 </signal>
 <signal name="RECEIVER3:ADC2:ADIN1_P">
 <contactref element="RECEIVER3:ADC2:ADC1" pad="8"/>
@@ -16050,20 +15969,20 @@ design rules under a new name.
 <wire x1="3.81" y1="0" x2="1.27" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER4:ADC2:GND" class="2">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="9"/>
-<contactref element="RECEIVER4:ADC2:ADC1" pad="11"/>
 <contactref element="RECEIVER4:ADC2:ADC1" pad="20"/>
-<contactref element="RECEIVER4:ADC2:ADC1" pad="29"/>
-<contactref element="RECEIVER4:ADC2:ADC1" pad="31"/>
-<contactref element="RECEIVER4:ADC2:ADC1" pad="32"/>
 <contactref element="RECEIVER4:ADC2:C139" pad="2"/>
 <contactref element="RECEIVER4:ADC2:C140" pad="2"/>
-<contactref element="RECEIVER4:ADC2:ADC1" pad="13"/>
-<contactref element="RECEIVER4:ADC2:ADC1" pad="14"/>
 <contactref element="RECEIVER4:ADC2:C141" pad="2"/>
 <contactref element="RECEIVER4:ADC2:C142" pad="2"/>
 <contactref element="RECEIVER4:ADC2:ADC1" pad="EXP"/>
 <contactref element="RECEIVER4:ADC2:C143" pad="2"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="13"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="9"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="11"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="14"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="31"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="32"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="29"/>
 <wire x1="-178.55" y1="38.34" x2="-179.55" y2="38.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-177.55" y1="38.34" x2="-178.55" y2="38.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-177.05" y1="38.34" x2="-177.55" y2="38.34" width="0" layer="19" extent="1-1"/>
@@ -16072,8 +15991,8 @@ design rules under a new name.
 <wire x1="-178.05" y1="42.94" x2="-177.8" y2="40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-179.05" y1="42.94" x2="-178.05" y2="42.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-179.55" y1="42.94" x2="-179.05" y2="42.94" width="0" layer="19" extent="1-1"/>
-<wire x1="1.4" y1="0" x2="-179.55" y2="38.34" width="0" layer="19" extent="1-1"/>
-<wire x1="0.65" y1="0" x2="1.4" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="0.65" y1="0" x2="-175.5" y2="40.39" width="0" layer="19" extent="1-1"/>
+<wire x1="1.4" y1="0" x2="0.65" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER4:ADC2:N$81">
 <contactref element="RECEIVER4:ADC2:ADC1" pad="10"/>
@@ -16085,42 +16004,15 @@ design rules under a new name.
 <contactref element="RECEIVER4:ADC2:C140" pad="1"/>
 <wire x1="-1.4" y1="0" x2="-178.05" y2="38.34" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RECEIVER4:ADC2:CNV">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="15"/>
-</signal>
-<signal name="RECEIVER4:ADC2:BUSY">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="26"/>
-</signal>
 <signal name="RECEIVER4:ADC2:N$83">
 <contactref element="RECEIVER4:ADC2:C141" pad="1"/>
 <contactref element="RECEIVER4:ADC2:ADC1" pad="28"/>
 <wire x1="-0.65" y1="0" x2="-177.55" y2="42.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RECEIVER4:ADC2:5V" class="2">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="30"/>
 <contactref element="RECEIVER4:ADC2:C142" pad="1"/>
+<contactref element="RECEIVER4:ADC2:ADC1" pad="30"/>
 <wire x1="-0.65" y1="0" x2="-178.55" y2="42.94" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="RECEIVER4:ADC2:SDO0">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="17"/>
-</signal>
-<signal name="RECEIVER4:ADC2:SDO1">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="18"/>
-</signal>
-<signal name="RECEIVER4:ADC2:SDO2">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="23"/>
-</signal>
-<signal name="RECEIVER4:ADC2:SDO3">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="24"/>
-</signal>
-<signal name="RECEIVER4:ADC2:SCKI">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="19"/>
-</signal>
-<signal name="RECEIVER4:ADC2:/CS">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="27"/>
-</signal>
-<signal name="RECEIVER4:ADC2:SDI">
-<contactref element="RECEIVER4:ADC2:ADC1" pad="25"/>
 </signal>
 <signal name="RECEIVER4:ADC2:ADIN1_P">
 <contactref element="RECEIVER4:ADC2:ADC1" pad="8"/>
@@ -16157,12 +16049,7 @@ design rules under a new name.
 <contactref element="DRIVER1:STHV_0" pad="HVM@3"/>
 <contactref element="DRIVER1:STHV_0" pad="HVM@4"/>
 <contactref element="DRIVER1:STHV_0" pad="HVM@5"/>
-<contactref element="DRIVER1:C183" pad="1"/>
-<contactref element="DRIVER1:C188" pad="1"/>
-<contactref element="DRIVER1:C186" pad="1"/>
 <contactref element="DRIVER1:C184" pad="1"/>
-<contactref element="DRIVER1:C185" pad="1"/>
-<contactref element="DRIVER1:C187" pad="1"/>
 <contactref element="DRIVER1:D7_1" pad="A"/>
 <contactref element="DRIVER1:D6_1" pad="A"/>
 <contactref element="DRIVER1:D5_1" pad="A"/>
@@ -16171,16 +16058,21 @@ design rules under a new name.
 <contactref element="DRIVER1:D1_1" pad="A"/>
 <contactref element="DRIVER1:D2_1" pad="A"/>
 <contactref element="DRIVER1:D3_1" pad="A"/>
+<contactref element="DRIVER1:C183" pad="1"/>
+<contactref element="DRIVER1:C187" pad="1"/>
+<contactref element="DRIVER1:C185" pad="1"/>
+<contactref element="DRIVER1:C186" pad="1"/>
+<contactref element="DRIVER1:C188" pad="1"/>
+<wire x1="-552.78" y1="55.88" x2="-552.78" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-563.56" y1="40.64" x2="-552.78" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-563.56" y1="34.29" x2="-563.56" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-549.59" y1="34.29" x2="-563.56" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-535.62" y1="34.29" x2="-549.59" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-521.65" y1="34.29" x2="-535.62" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-521.65" y1="27.94" x2="-521.65" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-527.38" y1="45.72" x2="-521.65" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-532.46" y1="52.07" x2="-527.38" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="-532.46" y1="55.88" x2="-532.46" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-549.59" y1="34.29" x2="-535.62" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-563.56" y1="34.29" x2="-549.59" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-563.56" y1="40.64" x2="-563.56" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-552.78" y1="52.07" x2="-563.56" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-552.78" y1="55.88" x2="-552.78" y2="52.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-512.14" y1="52.07" x2="-527.38" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="-512.14" y1="55.88" x2="-512.14" y2="52.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-507.06" y1="45.72" x2="-512.14" y2="52.07" width="0" layer="19" extent="1-1"/>
@@ -16191,10 +16083,10 @@ design rules under a new name.
 <wire x1="-563.77" y1="-14.645" x2="-563.77" y2="-14.195" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER1:HVM_CW">
-<contactref element="DRIVER1:STHV_0" pad="HVM_CW"/>
 <contactref element="DRIVER1:C189" pad="2"/>
 <contactref element="DRIVER1:C191" pad="2"/>
 <contactref element="DRIVER1:C190" pad="2"/>
+<contactref element="DRIVER1:STHV_0" pad="HVM_CW"/>
 <wire x1="-533.72" y1="40.64" x2="-547.69" y2="40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-519.75" y1="40.64" x2="-533.72" y2="40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-563.77" y1="-15.095" x2="-547.69" y2="40.64" width="0" layer="19" extent="1-1"/>
@@ -16210,17 +16102,7 @@ design rules under a new name.
 <wire x1="-549.59" y1="27.94" x2="-556.37" y2="-15.995" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER1:HVP" class="2">
-<contactref element="DRIVER1:STHV_0" pad="HVP@5"/>
-<contactref element="DRIVER1:STHV_0" pad="HVP@4"/>
 <contactref element="DRIVER1:STHV_0" pad="HVP@3"/>
-<contactref element="DRIVER1:STHV_0" pad="HVP@2"/>
-<contactref element="DRIVER1:STHV_0" pad="HVP@1"/>
-<contactref element="DRIVER1:C171" pad="1"/>
-<contactref element="DRIVER1:C176" pad="1"/>
-<contactref element="DRIVER1:C174" pad="1"/>
-<contactref element="DRIVER1:C172" pad="1"/>
-<contactref element="DRIVER1:C173" pad="1"/>
-<contactref element="DRIVER1:C175" pad="1"/>
 <contactref element="DRIVER1:D0_0" pad="C"/>
 <contactref element="DRIVER1:D4_0" pad="C"/>
 <contactref element="DRIVER1:D1_0" pad="C"/>
@@ -16229,24 +16111,34 @@ design rules under a new name.
 <contactref element="DRIVER1:D5_0" pad="C"/>
 <contactref element="DRIVER1:D6_0" pad="C"/>
 <contactref element="DRIVER1:D7_0" pad="C"/>
-<wire x1="-519.11" y1="7.62" x2="-521.65" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-535.62" y1="15.24" x2="-521.65" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-549.59" y1="15.24" x2="-535.62" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-563.56" y1="15.24" x2="-549.59" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-563.56" y1="21.59" x2="-563.56" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-556.37" y1="-13.295" x2="-549.59" y2="15.24" width="0" layer="19" extent="1-1"/>
+<contactref element="DRIVER1:STHV_0" pad="HVP@2"/>
+<contactref element="DRIVER1:STHV_0" pad="HVP@5"/>
+<contactref element="DRIVER1:STHV_0" pad="HVP@4"/>
+<contactref element="DRIVER1:C174" pad="2"/>
+<contactref element="DRIVER1:C172" pad="2"/>
+<contactref element="DRIVER1:C176" pad="2"/>
+<contactref element="DRIVER1:C171" pad="2"/>
+<contactref element="DRIVER1:C173" pad="2"/>
+<contactref element="DRIVER1:C175" pad="2"/>
+<contactref element="DRIVER1:STHV_0" pad="HVP@1"/>
+<wire x1="-560.39" y1="52.07" x2="-560.39" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-540.07" y1="52.07" x2="-560.39" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-540.07" y1="55.88" x2="-540.07" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-534.99" y1="45.72" x2="-540.07" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-519.75" y1="52.07" x2="-534.99" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-519.75" y1="55.88" x2="-519.75" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-514.67" y1="45.72" x2="-519.75" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-561.66" y1="21.59" x2="-560.39" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-561.66" y1="15.24" x2="-561.66" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-547.69" y1="15.24" x2="-561.66" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-533.72" y1="15.24" x2="-547.69" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-519.75" y1="15.24" x2="-533.72" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-517.21" y1="7.62" x2="-519.75" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-556.37" y1="-13.295" x2="-561.66" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-556.37" y1="-13.745" x2="-556.37" y2="-13.295" width="0" layer="19" extent="1-1"/>
 <wire x1="-556.37" y1="-14.195" x2="-556.37" y2="-13.745" width="0" layer="19" extent="1-1"/>
 <wire x1="-556.37" y1="-14.645" x2="-556.37" y2="-14.195" width="0" layer="19" extent="1-1"/>
 <wire x1="-556.37" y1="-15.095" x2="-556.37" y2="-14.645" width="0" layer="19" extent="1-1"/>
-<wire x1="-534.99" y1="45.72" x2="-535.62" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-540.07" y1="52.07" x2="-534.99" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-540.07" y1="55.88" x2="-540.07" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-519.75" y1="52.07" x2="-534.99" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-519.75" y1="55.88" x2="-519.75" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-514.67" y1="45.72" x2="-519.75" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-560.39" y1="55.88" x2="-540.07" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-560.39" y1="52.07" x2="-560.39" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER1:HVP_CW">
 <contactref element="DRIVER1:STHV_0" pad="HVP_CW"/>
@@ -16270,58 +16162,58 @@ design rules under a new name.
 <wire x1="-563.56" y1="46.99" x2="-556.37" y2="-16.895" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER1:GND" class="2">
-<contactref element="DRIVER1:C179" pad="1"/>
-<contactref element="DRIVER1:C177" pad="1"/>
-<contactref element="DRIVER1:C171" pad="2"/>
-<contactref element="DRIVER1:C176" pad="2"/>
-<contactref element="DRIVER1:C174" pad="2"/>
-<contactref element="DRIVER1:C181" pad="2"/>
-<contactref element="DRIVER1:C180" pad="2"/>
-<contactref element="DRIVER1:C172" pad="2"/>
-<contactref element="DRIVER1:C173" pad="2"/>
-<contactref element="DRIVER1:C175" pad="2"/>
-<contactref element="DRIVER1:C178" pad="1"/>
 <contactref element="DRIVER1:C170" pad="2"/>
-<contactref element="DRIVER1:C191" pad="1"/>
-<contactref element="DRIVER1:C189" pad="1"/>
-<contactref element="DRIVER1:C183" pad="2"/>
-<contactref element="DRIVER1:C188" pad="2"/>
-<contactref element="DRIVER1:C186" pad="2"/>
-<contactref element="DRIVER1:C184" pad="2"/>
-<contactref element="DRIVER1:C185" pad="2"/>
-<contactref element="DRIVER1:C187" pad="2"/>
-<contactref element="DRIVER1:C190" pad="1"/>
 <contactref element="DRIVER1:STHV_0" pad="GND_PWR@4"/>
 <contactref element="DRIVER1:STHV_0" pad="GND_PWR@3"/>
 <contactref element="DRIVER1:STHV_0" pad="DGND"/>
-<contactref element="DRIVER1:C182" pad="2"/>
-<contactref element="DRIVER1:STHV_0" pad="GND_PWR@1"/>
 <contactref element="DRIVER1:STHV_0" pad="GND_PWR@2"/>
 <contactref element="DRIVER1:STHV_0" pad="AGND"/>
 <contactref element="DRIVER1:GND_1" pad="1"/>
-<wire x1="-533.72" y1="34.29" x2="-533.72" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="-535.62" y1="40.64" x2="-533.72" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-535.62" y1="21.59" x2="-533.72" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="-533.72" y1="15.24" x2="-535.62" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-531.18" y1="7.62" x2="-533.72" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-521.65" y1="21.59" x2="-533.72" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="-519.75" y1="15.24" x2="-521.65" y2="21.59" width="0" layer="19" extent="1-1"/>
+<contactref element="DRIVER1:STHV_0" pad="GND_PWR@1"/>
+<contactref element="DRIVER1:C188" pad="2"/>
+<contactref element="DRIVER1:C187" pad="2"/>
+<contactref element="DRIVER1:C186" pad="2"/>
+<contactref element="DRIVER1:C185" pad="2"/>
+<contactref element="DRIVER1:C184" pad="2"/>
+<contactref element="DRIVER1:C183" pad="2"/>
+<contactref element="DRIVER1:C189" pad="1"/>
+<contactref element="DRIVER1:C190" pad="1"/>
+<contactref element="DRIVER1:C191" pad="1"/>
+<contactref element="DRIVER1:C177" pad="1"/>
+<contactref element="DRIVER1:C178" pad="1"/>
+<contactref element="DRIVER1:C179" pad="1"/>
+<contactref element="DRIVER1:C171" pad="1"/>
+<contactref element="DRIVER1:C172" pad="1"/>
+<contactref element="DRIVER1:C173" pad="1"/>
+<contactref element="DRIVER1:C174" pad="1"/>
+<contactref element="DRIVER1:C175" pad="1"/>
+<contactref element="DRIVER1:C176" pad="1"/>
+<contactref element="DRIVER1:C180" pad="2"/>
+<contactref element="DRIVER1:C181" pad="2"/>
+<contactref element="DRIVER1:C182" pad="2"/>
+<wire x1="-521.65" y1="21.59" x2="-521.65" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-519.75" y1="27.94" x2="-521.65" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-519.75" y1="34.29" x2="-519.75" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-521.65" y1="40.64" x2="-519.75" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-517.21" y1="7.62" x2="-519.75" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-547.69" y1="15.24" x2="-535.62" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-549.59" y1="21.59" x2="-547.69" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-547.69" y1="27.94" x2="-549.59" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-519.11" y1="7.62" x2="-521.65" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-531.18" y1="7.62" x2="-519.11" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-535.62" y1="15.24" x2="-531.18" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-535.62" y1="21.59" x2="-535.62" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-533.72" y1="27.94" x2="-535.62" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-533.72" y1="34.29" x2="-533.72" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-535.62" y1="40.64" x2="-533.72" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-547.69" y1="27.94" x2="-535.62" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-547.69" y1="34.29" x2="-547.69" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-549.59" y1="21.59" x2="-547.69" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-549.59" y1="15.24" x2="-549.59" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-549.59" y1="40.64" x2="-547.69" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-548.64" y1="46.99" x2="-549.59" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-561.66" y1="21.59" x2="-549.59" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-561.66" y1="15.24" x2="-561.66" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-561.66" y1="27.94" x2="-561.66" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-561.66" y1="34.29" x2="-561.66" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="-561.66" y1="40.64" x2="-561.66" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-562.995" y1="-10.27" x2="-561.66" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-561.66" y1="40.64" x2="-549.59" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-561.66" y1="34.29" x2="-561.66" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-561.66" y1="27.94" x2="-561.66" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-563.56" y1="21.59" x2="-561.66" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-563.56" y1="15.24" x2="-563.56" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-562.995" y1="-10.27" x2="-563.56" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-560.745" y1="-10.27" x2="-562.995" y2="-10.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-556.37" y1="-12.395" x2="-560.745" y2="-10.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-556.37" y1="-15.545" x2="-556.37" y2="-12.395" width="0" layer="19" extent="1-1"/>
@@ -16497,12 +16389,7 @@ design rules under a new name.
 <contactref element="DRIVER2:STHV_0" pad="HVM@3"/>
 <contactref element="DRIVER2:STHV_0" pad="HVM@4"/>
 <contactref element="DRIVER2:STHV_0" pad="HVM@5"/>
-<contactref element="DRIVER2:C183" pad="1"/>
-<contactref element="DRIVER2:C188" pad="1"/>
-<contactref element="DRIVER2:C186" pad="1"/>
 <contactref element="DRIVER2:C184" pad="1"/>
-<contactref element="DRIVER2:C185" pad="1"/>
-<contactref element="DRIVER2:C187" pad="1"/>
 <contactref element="DRIVER2:D7_1" pad="A"/>
 <contactref element="DRIVER2:D6_1" pad="A"/>
 <contactref element="DRIVER2:D5_1" pad="A"/>
@@ -16511,6 +16398,11 @@ design rules under a new name.
 <contactref element="DRIVER2:D1_1" pad="A"/>
 <contactref element="DRIVER2:D2_1" pad="A"/>
 <contactref element="DRIVER2:D3_1" pad="A"/>
+<contactref element="DRIVER2:C183" pad="1"/>
+<contactref element="DRIVER2:C187" pad="1"/>
+<contactref element="DRIVER2:C185" pad="1"/>
+<contactref element="DRIVER2:C186" pad="1"/>
+<contactref element="DRIVER2:C188" pad="1"/>
 <wire x1="-3.7" y1="0.675" x2="-3.7" y2="1.125" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.7" y1="0.225" x2="-3.7" y2="0.675" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.7" y1="-0.225" x2="-3.7" y2="0.225" width="0" layer="19" extent="1-1"/>
@@ -16519,10 +16411,10 @@ design rules under a new name.
 <wire x1="-0.95" y1="0" x2="-1.6" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER2:HVM_CW">
-<contactref element="DRIVER2:STHV_0" pad="HVM_CW"/>
 <contactref element="DRIVER2:C189" pad="2"/>
 <contactref element="DRIVER2:C191" pad="2"/>
 <contactref element="DRIVER2:C190" pad="2"/>
+<contactref element="DRIVER2:STHV_0" pad="HVM_CW"/>
 <wire x1="0.95" y1="0" x2="-3.7" y2="-1.125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER2:VDDP">
@@ -16536,17 +16428,7 @@ design rules under a new name.
 <wire x1="-0.95" y1="0" x2="3.7" y2="-2.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER2:HVP" class="2">
-<contactref element="DRIVER2:STHV_0" pad="HVP@5"/>
-<contactref element="DRIVER2:STHV_0" pad="HVP@4"/>
 <contactref element="DRIVER2:STHV_0" pad="HVP@3"/>
-<contactref element="DRIVER2:STHV_0" pad="HVP@2"/>
-<contactref element="DRIVER2:STHV_0" pad="HVP@1"/>
-<contactref element="DRIVER2:C171" pad="1"/>
-<contactref element="DRIVER2:C176" pad="1"/>
-<contactref element="DRIVER2:C174" pad="1"/>
-<contactref element="DRIVER2:C172" pad="1"/>
-<contactref element="DRIVER2:C173" pad="1"/>
-<contactref element="DRIVER2:C175" pad="1"/>
 <contactref element="DRIVER2:D0_0" pad="C"/>
 <contactref element="DRIVER2:D4_0" pad="C"/>
 <contactref element="DRIVER2:D1_0" pad="C"/>
@@ -16555,12 +16437,21 @@ design rules under a new name.
 <contactref element="DRIVER2:D5_0" pad="C"/>
 <contactref element="DRIVER2:D6_0" pad="C"/>
 <contactref element="DRIVER2:D7_0" pad="C"/>
-<wire x1="3.7" y1="-0.675" x2="3.7" y2="-1.125" width="0" layer="19" extent="1-1"/>
-<wire x1="3.7" y1="-0.225" x2="3.7" y2="-0.675" width="0" layer="19" extent="1-1"/>
+<contactref element="DRIVER2:STHV_0" pad="HVP@2"/>
+<contactref element="DRIVER2:STHV_0" pad="HVP@5"/>
+<contactref element="DRIVER2:STHV_0" pad="HVP@4"/>
+<contactref element="DRIVER2:C174" pad="2"/>
+<contactref element="DRIVER2:C172" pad="2"/>
+<contactref element="DRIVER2:C176" pad="2"/>
+<contactref element="DRIVER2:C171" pad="2"/>
+<contactref element="DRIVER2:C173" pad="2"/>
+<contactref element="DRIVER2:C175" pad="2"/>
+<contactref element="DRIVER2:STHV_0" pad="HVP@1"/>
 <wire x1="3.7" y1="0.225" x2="3.7" y2="-0.225" width="0" layer="19" extent="1-1"/>
+<wire x1="3.7" y1="-0.675" x2="3.7" y2="-0.225" width="0" layer="19" extent="1-1"/>
+<wire x1="3.7" y1="-1.125" x2="3.7" y2="-0.675" width="0" layer="19" extent="1-1"/>
 <wire x1="3.7" y1="0.675" x2="3.7" y2="0.225" width="0" layer="19" extent="1-1"/>
 <wire x1="0.95" y1="0" x2="3.7" y2="-0.225" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.95" y1="0" x2="0.95" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER2:HVP_CW">
 <contactref element="DRIVER2:STHV_0" pad="HVP_CW"/>
@@ -16582,35 +16473,35 @@ design rules under a new name.
 <wire x1="-0.95" y1="0" x2="3.7" y2="-2.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER2:GND" class="2">
-<contactref element="DRIVER2:C179" pad="1"/>
-<contactref element="DRIVER2:C177" pad="1"/>
-<contactref element="DRIVER2:C171" pad="2"/>
-<contactref element="DRIVER2:C176" pad="2"/>
-<contactref element="DRIVER2:C174" pad="2"/>
-<contactref element="DRIVER2:C181" pad="2"/>
-<contactref element="DRIVER2:C180" pad="2"/>
-<contactref element="DRIVER2:C172" pad="2"/>
-<contactref element="DRIVER2:C173" pad="2"/>
-<contactref element="DRIVER2:C175" pad="2"/>
-<contactref element="DRIVER2:C178" pad="1"/>
 <contactref element="DRIVER2:C170" pad="2"/>
-<contactref element="DRIVER2:C191" pad="1"/>
-<contactref element="DRIVER2:C189" pad="1"/>
-<contactref element="DRIVER2:C183" pad="2"/>
-<contactref element="DRIVER2:C188" pad="2"/>
-<contactref element="DRIVER2:C186" pad="2"/>
-<contactref element="DRIVER2:C184" pad="2"/>
-<contactref element="DRIVER2:C185" pad="2"/>
-<contactref element="DRIVER2:C187" pad="2"/>
-<contactref element="DRIVER2:C190" pad="1"/>
 <contactref element="DRIVER2:STHV_0" pad="GND_PWR@4"/>
 <contactref element="DRIVER2:STHV_0" pad="GND_PWR@3"/>
 <contactref element="DRIVER2:STHV_0" pad="DGND"/>
-<contactref element="DRIVER2:C182" pad="2"/>
-<contactref element="DRIVER2:STHV_0" pad="GND_PWR@1"/>
 <contactref element="DRIVER2:STHV_0" pad="GND_PWR@2"/>
 <contactref element="DRIVER2:STHV_0" pad="AGND"/>
 <contactref element="DRIVER2:GND_1" pad="1"/>
+<contactref element="DRIVER2:STHV_0" pad="GND_PWR@1"/>
+<contactref element="DRIVER2:C188" pad="2"/>
+<contactref element="DRIVER2:C187" pad="2"/>
+<contactref element="DRIVER2:C186" pad="2"/>
+<contactref element="DRIVER2:C185" pad="2"/>
+<contactref element="DRIVER2:C184" pad="2"/>
+<contactref element="DRIVER2:C183" pad="2"/>
+<contactref element="DRIVER2:C189" pad="1"/>
+<contactref element="DRIVER2:C190" pad="1"/>
+<contactref element="DRIVER2:C191" pad="1"/>
+<contactref element="DRIVER2:C177" pad="1"/>
+<contactref element="DRIVER2:C178" pad="1"/>
+<contactref element="DRIVER2:C179" pad="1"/>
+<contactref element="DRIVER2:C171" pad="1"/>
+<contactref element="DRIVER2:C172" pad="1"/>
+<contactref element="DRIVER2:C173" pad="1"/>
+<contactref element="DRIVER2:C174" pad="1"/>
+<contactref element="DRIVER2:C175" pad="1"/>
+<contactref element="DRIVER2:C176" pad="1"/>
+<contactref element="DRIVER2:C180" pad="2"/>
+<contactref element="DRIVER2:C181" pad="2"/>
+<contactref element="DRIVER2:C182" pad="2"/>
 <wire x1="-0.675" y1="-3.7" x2="-2.925" y2="-3.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.95" y1="0" x2="-0.675" y2="-3.7" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="0" x2="-0.95" y2="0" width="0" layer="19" extent="1-1"/>
@@ -16782,6 +16673,114 @@ design rules under a new name.
 </signal>
 <signal name="DRIVER2:IN0_0">
 <contactref element="DRIVER2:STHV_0" pad="IN1_0"/>
+</signal>
+<signal name="RECEIVER1:CNV">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="15"/>
+</signal>
+<signal name="RECEIVER2:CNV">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="15"/>
+</signal>
+<signal name="RECEIVER3:CNV">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="15"/>
+</signal>
+<signal name="RECEIVER4:CNV">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="15"/>
+</signal>
+<signal name="RECEIVER1:BUSY">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="26"/>
+</signal>
+<signal name="RECEIVER2:BUSY">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="26"/>
+</signal>
+<signal name="RECEIVER3:BUSY">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="26"/>
+</signal>
+<signal name="RECEIVER4:BUSY">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="26"/>
+</signal>
+<signal name="RECEIVER1:!CS">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="27"/>
+</signal>
+<signal name="RECEIVER2:!CS">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="27"/>
+</signal>
+<signal name="RECEIVER3:!CS">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="27"/>
+</signal>
+<signal name="RECEIVER4:!CS">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="27"/>
+</signal>
+<signal name="RECEIVER1:SCKI">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="19"/>
+</signal>
+<signal name="RECEIVER2:SCKI">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="19"/>
+</signal>
+<signal name="RECEIVER3:SCKI">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="19"/>
+</signal>
+<signal name="RECEIVER4:SCKI">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="19"/>
+</signal>
+<signal name="RECEIVER1:SDI">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="25"/>
+</signal>
+<signal name="RECEIVER2:SDI">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="25"/>
+</signal>
+<signal name="RECEIVER3:SDI">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="25"/>
+</signal>
+<signal name="RECEIVER4:SDI">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="25"/>
+</signal>
+<signal name="RECEIVER1:SDO0">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="17"/>
+</signal>
+<signal name="RECEIVER2:SDO0">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="17"/>
+</signal>
+<signal name="RECEIVER3:SDO0">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="17"/>
+</signal>
+<signal name="RECEIVER4:SDO0">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="17"/>
+</signal>
+<signal name="RECEIVER1:SDO1">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="18"/>
+</signal>
+<signal name="RECEIVER2:SDO1">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="18"/>
+</signal>
+<signal name="RECEIVER3:SDO1">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="18"/>
+</signal>
+<signal name="RECEIVER4:SDO1">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="18"/>
+</signal>
+<signal name="RECEIVER1:SDO2">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="23"/>
+</signal>
+<signal name="RECEIVER2:SDO2">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="23"/>
+</signal>
+<signal name="RECEIVER3:SDO2">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="23"/>
+</signal>
+<signal name="RECEIVER4:SDO2">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="23"/>
+</signal>
+<signal name="RECEIVER1:SDO3">
+<contactref element="RECEIVER1:ADC2:ADC1" pad="24"/>
+</signal>
+<signal name="RECEIVER2:SDO3">
+<contactref element="RECEIVER2:ADC2:ADC1" pad="24"/>
+</signal>
+<signal name="RECEIVER3:SDO3">
+<contactref element="RECEIVER3:ADC2:ADC1" pad="24"/>
+</signal>
+<signal name="RECEIVER4:SDO3">
+<contactref element="RECEIVER4:ADC2:ADC1" pad="24"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
