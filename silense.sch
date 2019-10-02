@@ -27729,33 +27729,36 @@ todo: are names correct over multiple sheets?</text>
 </sheet>
 </sheets>
 </module>
-<module name="ADC" prefix="" dx="30.48" dy="25.4">
+<module name="ADC" prefix="" dx="30.48" dy="30.48">
 <ports>
-<port name="IN1_P" side="left" coord="7.62" direction="io"/>
-<port name="IN1_N" side="left" coord="5.08" direction="io"/>
-<port name="IN2_P" side="left" coord="2.54" direction="io"/>
-<port name="IN2_N" side="left" coord="0" direction="io"/>
-<port name="IN3_P" side="left" coord="-2.54" direction="io"/>
-<port name="IN3_N" side="left" coord="-5.08" direction="io"/>
-<port name="IN4_P" side="left" coord="-7.62" direction="io"/>
-<port name="IN4_N" side="left" coord="-10.16" direction="io"/>
+<port name="IN1_P" side="left" coord="7.62" direction="in"/>
+<port name="IN1_N" side="left" coord="5.08" direction="in"/>
+<port name="IN2_P" side="left" coord="2.54" direction="in"/>
+<port name="IN2_N" side="left" coord="0" direction="in"/>
+<port name="IN3_P" side="left" coord="-2.54" direction="in"/>
+<port name="IN3_N" side="left" coord="-5.08" direction="in"/>
+<port name="IN4_P" side="left" coord="-7.62" direction="in"/>
+<port name="IN4_N" side="left" coord="-10.16" direction="in"/>
+<port name="CNV" side="right" coord="7.62" direction="in"/>
+<port name="BUSY" side="right" coord="5.08" direction="out"/>
+<port name="!CS" side="right" coord="2.54" direction="in"/>
+<port name="SCKI" side="right" coord="0" direction="in"/>
+<port name="SDI" side="right" coord="-2.54" direction="in"/>
+<port name="SDO0" side="right" coord="-5.08" direction="out"/>
+<port name="SDO1" side="right" coord="-7.62" direction="out"/>
+<port name="SDO2" side="right" coord="-10.16" direction="out"/>
+<port name="SDO3" side="right" coord="-12.7" direction="out"/>
 </ports>
 <variantdefs>
 </variantdefs>
 <parts>
 <part name="ADC1" library="wouter" library_urn="urn:adsk.eagle:library:7442707" deviceset="LTC2344-16" device="" package3d_urn="urn:adsk.eagle:package:12631503/1"/>
 <part name="SUPPLY72" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY73" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY74" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY75" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY76" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY77" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C139" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf"/>
 <part name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="47uf"/>
 <part name="SUPPLY78" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY79" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY80" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY81" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C141" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uf"/>
 <part name="SUPPLY82" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C142" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf"/>
@@ -27769,68 +27772,50 @@ todo: are names correct over multiple sheets?</text>
 <sheet>
 <plain>
 <text x="144.78" y="78.74" size="1.778" layer="97">ADC</text>
-<text x="64.008" y="150.368" size="1.778" layer="97">todo: check if we're converting against 2v5: stable voltage!</text>
-<text x="64.78" y="156.74" size="1.778" layer="97">todo: check 5V: is it necessary or 3v3 also fine? =&gt; 3v3 comes from zedboard as well as powerconnboard</text>
+<text x="66.548" y="165.608" size="1.778" layer="97">todo: check if we're converting against 2v5: stable voltage!</text>
+<text x="67.32" y="169.44" size="1.778" layer="97">todo: check 5V: is it necessary or 3v3 also fine? =&gt; 3v3 comes from zedboard as well as powerconnboard</text>
 </plain>
 <instances>
 <instance part="ADC1" gate="G$1" x="167.64" y="104.14" smashed="yes">
 <attribute name="VALUE" x="162.56" y="93.98" size="1.27" layer="96"/>
-<attribute name="NAME" x="162.56" y="132.08" size="1.27" layer="95"/>
+<attribute name="NAME" x="193.04" y="129.54" size="1.27" layer="95"/>
 </instance>
-<instance part="SUPPLY72" gate="GND" x="170.18" y="88.9" smashed="yes">
-<attribute name="VALUE" x="168.275" y="85.725" size="1.778" layer="96"/>
+<instance part="SUPPLY72" gate="GND" x="160.02" y="76.2" smashed="yes">
+<attribute name="VALUE" x="158.115" y="73.025" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY73" gate="GND" x="175.26" y="88.9" smashed="yes">
-<attribute name="VALUE" x="173.355" y="85.725" size="1.778" layer="96"/>
+<instance part="SUPPLY74" gate="GND" x="205.74" y="99.06" smashed="yes">
+<attribute name="VALUE" x="203.835" y="95.885" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY74" gate="GND" x="205.74" y="111.76" smashed="yes" rot="R90">
-<attribute name="VALUE" x="208.915" y="109.855" size="1.778" layer="96" rot="R90"/>
+<instance part="C139" gate="G$1" x="172.72" y="83.82" smashed="yes">
+<attribute name="NAME" x="164.084" y="84.201" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.084" y="81.661" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY75" gate="GND" x="205.74" y="124.46" smashed="yes" rot="R90">
-<attribute name="VALUE" x="208.915" y="122.555" size="1.778" layer="96" rot="R90"/>
+<instance part="C140" gate="G$1" x="177.8" y="83.82" smashed="yes">
+<attribute name="NAME" x="181.864" y="84.201" size="1.778" layer="95"/>
+<attribute name="VALUE" x="181.864" y="81.661" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY76" gate="GND" x="177.8" y="137.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="179.705" y="140.335" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY78" gate="GND" x="172.72" y="76.2" smashed="yes">
+<attribute name="VALUE" x="170.815" y="73.025" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY77" gate="GND" x="172.72" y="137.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="174.625" y="140.335" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY79" gate="GND" x="177.8" y="76.2" smashed="yes">
+<attribute name="VALUE" x="175.895" y="73.025" size="1.778" layer="96"/>
 </instance>
-<instance part="C139" gate="G$1" x="172.72" y="88.9" smashed="yes">
-<attribute name="NAME" x="174.244" y="89.281" size="1.778" layer="95"/>
-<attribute name="VALUE" x="174.244" y="84.201" size="1.778" layer="96"/>
+<instance part="C141" gate="G$1" x="185.42" y="154.94" smashed="yes">
+<attribute name="NAME" x="189.484" y="155.321" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.484" y="152.781" size="1.778" layer="96"/>
 </instance>
-<instance part="C140" gate="G$1" x="177.8" y="88.9" smashed="yes">
-<attribute name="NAME" x="179.324" y="89.281" size="1.778" layer="95"/>
-<attribute name="VALUE" x="179.324" y="84.201" size="1.778" layer="96"/>
+<instance part="SUPPLY82" gate="GND" x="185.42" y="147.32" smashed="yes">
+<attribute name="VALUE" x="183.515" y="144.145" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY78" gate="GND" x="172.72" y="81.28" smashed="yes">
-<attribute name="VALUE" x="170.815" y="78.105" size="1.778" layer="96"/>
+<instance part="C142" gate="G$1" x="170.18" y="154.94" smashed="yes">
+<attribute name="NAME" x="161.544" y="152.781" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.544" y="150.241" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY79" gate="GND" x="177.8" y="81.28" smashed="yes">
-<attribute name="VALUE" x="175.895" y="78.105" size="1.778" layer="96"/>
+<instance part="SUPPLY83" gate="GND" x="170.18" y="147.32" smashed="yes">
+<attribute name="VALUE" x="168.275" y="144.145" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY80" gate="GND" x="180.34" y="88.9" smashed="yes">
-<attribute name="VALUE" x="178.435" y="85.725" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY81" gate="GND" x="182.88" y="88.9" smashed="yes">
-<attribute name="VALUE" x="180.975" y="85.725" size="1.778" layer="96"/>
-</instance>
-<instance part="C141" gate="G$1" x="180.34" y="137.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="178.816" y="136.779" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="178.816" y="141.859" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY82" gate="GND" x="180.34" y="144.78" smashed="yes" rot="R180">
-<attribute name="VALUE" x="182.245" y="147.955" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C142" gate="G$1" x="172.72" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="173.101" y="143.256" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="168.021" y="143.256" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SUPPLY83" gate="GND" x="165.1" y="144.78" smashed="yes" rot="R270">
-<attribute name="VALUE" x="161.925" y="146.685" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SUPPLY84" gate="GND" x="170.18" y="137.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="172.085" y="140.335" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY84" gate="GND" x="160.02" y="132.08" smashed="yes">
+<attribute name="VALUE" x="158.115" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="C143" gate="G$1" x="223.52" y="111.76" smashed="yes">
 <attribute name="NAME" x="225.044" y="112.141" size="1.778" layer="95"/>
@@ -27850,28 +27835,14 @@ todo: are names correct over multiple sheets?</text>
 <nets>
 <net name="GND" class="2">
 <segment>
-<pinref part="ADC1" gate="G$1" pin="GND$7"/>
-<pinref part="SUPPLY72" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="ADC1" gate="G$1" pin="GND$6"/>
-<pinref part="SUPPLY73" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="ADC1" gate="G$1" pin="GND$5"/>
 <pinref part="SUPPLY74" gate="GND" pin="GND"/>
-</segment>
-<segment>
+<wire x1="205.74" y1="101.6" x2="205.74" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="ADC1" gate="G$1" pin="GND$4"/>
-<pinref part="SUPPLY75" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="ADC1" gate="G$1" pin="GND$3"/>
-<pinref part="SUPPLY76" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="ADC1" gate="G$1" pin="GND$2"/>
-<pinref part="SUPPLY77" gate="GND" pin="GND"/>
+<wire x1="203.2" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="124.46" x2="205.74" y2="111.76" width="0.1524" layer="91"/>
+<junction x="205.74" y="111.76"/>
 </segment>
 <segment>
 <pinref part="C139" gate="G$1" pin="2"/>
@@ -27880,14 +27851,6 @@ todo: are names correct over multiple sheets?</text>
 <segment>
 <pinref part="C140" gate="G$1" pin="2"/>
 <pinref part="SUPPLY79" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="ADC1" gate="G$1" pin="PD"/>
-<pinref part="SUPPLY80" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="ADC1" gate="G$1" pin="LVDS/(/CMOS)"/>
-<pinref part="SUPPLY81" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C141" gate="G$1" pin="2"/>
@@ -27900,52 +27863,87 @@ todo: are names correct over multiple sheets?</text>
 <segment>
 <pinref part="ADC1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY84" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="134.62" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="137.16" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
+<junction x="170.18" y="137.16"/>
+<pinref part="ADC1" gate="G$1" pin="GND$3"/>
+<wire x1="172.72" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="137.16" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="ADC1" gate="G$1" pin="GND$2"/>
+<wire x1="172.72" y1="137.16" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
+<junction x="172.72" y="137.16"/>
 </segment>
 <segment>
 <pinref part="C143" gate="G$1" pin="2"/>
 <pinref part="SUPPLY85" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY72" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="78.74" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="ADC1" gate="G$1" pin="GND$7"/>
+<wire x1="170.18" y1="91.44" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="ADC1" gate="G$1" pin="GND$6"/>
+<wire x1="175.26" y1="88.9" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<junction x="170.18" y="88.9"/>
+<junction x="175.26" y="88.9"/>
+<pinref part="ADC1" gate="G$1" pin="PD"/>
+<wire x1="180.34" y1="88.9" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
+<junction x="180.34" y="88.9"/>
+<pinref part="ADC1" gate="G$1" pin="LVDS/(/CMOS)"/>
+<wire x1="182.88" y1="88.9" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="REFIN"/>
 <pinref part="C139" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="86.36" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$82" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="REFBUF"/>
 <pinref part="C140" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="86.36" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CNV" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="CNV"/>
-<wire x1="185.42" y1="91.44" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
-<label x="185.42" y="76.2" size="1.778" layer="95"/>
+<wire x1="185.42" y1="91.44" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<label x="208.28" y="88.9" size="1.778" layer="95"/>
+<wire x1="185.42" y1="88.9" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUSY" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="BUSY"/>
 <wire x1="185.42" y1="134.62" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
-<label x="185.42" y="134.62" size="1.778" layer="95" rot="R90"/>
+<label x="208.28" y="139.7" size="1.778" layer="95"/>
+<wire x1="185.42" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$83" class="0">
 <segment>
 <pinref part="C141" gate="G$1" pin="1"/>
 <pinref part="ADC1" gate="G$1" pin="VDDLBYP"/>
+<wire x1="180.34" y1="134.62" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="157.48" x2="185.42" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="2">
 <segment>
-<pinref part="ADC1" gate="G$1" pin="VDD"/>
-<wire x1="175.26" y1="134.62" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C142" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="144.78" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
-<junction x="175.26" y="144.78"/>
-<label x="175.26" y="147.32" size="1.778" layer="95"/>
+<label x="172.72" y="157.48" size="1.778" layer="95"/>
+<pinref part="ADC1" gate="G$1" pin="VDD"/>
+<wire x1="175.26" y1="134.62" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDO0" class="0">
@@ -27980,21 +27978,23 @@ todo: are names correct over multiple sheets?</text>
 <segment>
 <pinref part="ADC1" gate="G$1" pin="SCKI"/>
 <wire x1="203.2" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
-<label x="210.82" y="109.22" size="1.778" layer="95" align="bottom-right"/>
+<label x="213.36" y="109.22" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="/CS" class="0">
+<net name="!CS" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="/CS"/>
-<wire x1="182.88" y1="134.62" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="182.88" y="142.24" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<wire x1="182.88" y1="134.62" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
+<label x="213.36" y="142.24" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="182.88" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDI" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="SDO-/SDI"/>
-<wire x1="187.96" y1="134.62" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
-<label x="187.96" y="147.32" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<wire x1="187.96" y1="134.62" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
+<label x="213.36" y="137.16" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="187.96" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADIN1_P" class="0">
@@ -30919,12 +30919,21 @@ TODO: separate inx_1</text>
 </sheet>
 </sheets>
 </module>
-<module name="RECEIVER" prefix="" dx="30.48" dy="15.24">
+<module name="RECEIVER" prefix="" dx="30.48" dy="30.48">
 <ports>
 <port name="IN0" side="left" coord="5.08" direction="in"/>
 <port name="IN1" side="left" coord="2.54" direction="in"/>
 <port name="IN2" side="left" coord="0" direction="in"/>
 <port name="IN3" side="left" coord="-2.54" direction="in"/>
+<port name="CNV" side="right" coord="12.7" direction="in"/>
+<port name="BUSY" side="right" coord="10.16" direction="out"/>
+<port name="!CS" side="right" coord="7.62" direction="in"/>
+<port name="SCKI" side="right" coord="5.08" direction="in"/>
+<port name="SDI" side="right" coord="2.54" direction="in"/>
+<port name="SDO0" side="right" coord="0" direction="out"/>
+<port name="SDO1" side="right" coord="-2.54" direction="out"/>
+<port name="SDO2" side="right" coord="-5.08" direction="out"/>
+<port name="SDO3" side="right" coord="-7.62" direction="out"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -30968,6 +30977,69 @@ TODO: separate inx_1</text>
 <busses>
 </busses>
 <nets>
+<net name="CNV" class="0">
+<segment>
+<portref moduleinst="ADC2" port="CNV"/>
+<wire x1="281.94" y1="190.5" x2="304.8" y2="190.5" width="0.1524" layer="91"/>
+<label x="294.64" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUSY" class="0">
+<segment>
+<portref moduleinst="ADC2" port="BUSY"/>
+<wire x1="281.94" y1="187.96" x2="304.8" y2="187.96" width="0.1524" layer="91"/>
+<label x="294.64" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!CS" class="0">
+<segment>
+<portref moduleinst="ADC2" port="!CS"/>
+<wire x1="281.94" y1="185.42" x2="304.8" y2="185.42" width="0.1524" layer="91"/>
+<label x="294.64" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCKI" class="0">
+<segment>
+<portref moduleinst="ADC2" port="SCKI"/>
+<wire x1="281.94" y1="182.88" x2="304.8" y2="182.88" width="0.1524" layer="91"/>
+<label x="294.64" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDI" class="0">
+<segment>
+<portref moduleinst="ADC2" port="SDI"/>
+<wire x1="281.94" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
+<label x="294.64" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDO0" class="0">
+<segment>
+<portref moduleinst="ADC2" port="SDO0"/>
+<wire x1="281.94" y1="177.8" x2="304.8" y2="177.8" width="0.1524" layer="91"/>
+<label x="294.64" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDO1" class="0">
+<segment>
+<portref moduleinst="ADC2" port="SDO1"/>
+<wire x1="281.94" y1="175.26" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
+<label x="294.64" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDO2" class="0">
+<segment>
+<portref moduleinst="ADC2" port="SDO2"/>
+<wire x1="281.94" y1="172.72" x2="304.8" y2="172.72" width="0.1524" layer="91"/>
+<label x="294.64" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDO3" class="0">
+<segment>
+<portref moduleinst="ADC2" port="SDO3"/>
+<wire x1="281.94" y1="170.18" x2="304.8" y2="170.18" width="0.1524" layer="91"/>
+<label x="294.64" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -30989,23 +31061,23 @@ TODO: separate inx_1</text>
 <moduleinst name="CONN_FPGA1" module="CONN_FPGA" x="241.3" y="144.78">
 <attribute name="NAME" x="241.3" y="144.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="DRIVER1" module="DRIVER" x="154.94" y="160.02">
-<attribute name="NAME" x="154.94" y="160.02" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="DRIVER1" module="DRIVER" x="210.82" y="210.82">
+<attribute name="NAME" x="210.82" y="210.82" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="RECEIVER1" module="RECEIVER" x="154.94" y="96.52">
-<attribute name="NAME" x="154.94" y="96.52" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="RECEIVER1" module="RECEIVER" x="121.92" y="121.92">
+<attribute name="NAME" x="121.92" y="121.92" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="RECEIVER2" module="RECEIVER" x="154.94" y="78.74">
-<attribute name="NAME" x="154.94" y="78.74" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="RECEIVER2" module="RECEIVER" x="121.92" y="88.9">
+<attribute name="NAME" x="121.92" y="88.9" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="RECEIVER3" module="RECEIVER" x="154.94" y="60.96">
-<attribute name="NAME" x="154.94" y="60.96" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="RECEIVER3" module="RECEIVER" x="121.92" y="55.88">
+<attribute name="NAME" x="121.92" y="55.88" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="RECEIVER4" module="RECEIVER" x="154.94" y="43.18">
-<attribute name="NAME" x="154.94" y="43.18" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="RECEIVER4" module="RECEIVER" x="121.92" y="22.86">
+<attribute name="NAME" x="121.92" y="22.86" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="DRIVER2" module="DRIVER" x="154.94" y="132.08">
-<attribute name="NAME" x="154.94" y="132.08" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="DRIVER2" module="DRIVER" x="210.82" y="182.88">
+<attribute name="NAME" x="210.82" y="182.88" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
