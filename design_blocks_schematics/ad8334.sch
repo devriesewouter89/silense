@@ -13926,12 +13926,8 @@ Datasheet (TS53YL502MR10)</description>
 <part name="C23" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C24" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012005009" value="22pF"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18nF"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="274"/>
 <part name="C26" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C27" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012005009" value="22pF"/>
-<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18nF"/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="274"/>
 <part name="D1" library="BAT64-04E6433" deviceset="BAT64-04E6433" device=""/>
 <part name="D2" library="BAT64-04E6433" deviceset="BAT64-04E6433" device=""/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/2" value="BLM21AG121SN1D"/>
@@ -14037,6 +14033,10 @@ Datasheet (TS53YL502MR10)</description>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="VR1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-SMD-3MM-OPEN-1/10W-25%" package3d_urn="urn:adsk.eagle:package:39666/1" value="10k"/>
 <part name="VR2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-SMD-3MM-OPEN-1/10W-25%" package3d_urn="urn:adsk.eagle:package:39666/1" value="10k"/>
+<part name="C11" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="18nF"/>
+<part name="C12" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="18nF"/>
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="274R"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="274R"/>
 </parts>
 <sheets>
 <sheet>
@@ -14135,14 +14135,6 @@ Datasheet (TS53YL502MR10)</description>
 <instance part="SUPPLY13" gate="GND" x="76.2" y="154.94" smashed="yes">
 <attribute name="VALUE" x="74.295" y="151.765" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="99.06" y="160.02" smashed="yes">
-<attribute name="NAME" x="100.584" y="160.401" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.584" y="155.321" size="1.778" layer="96"/>
-</instance>
-<instance part="R6" gate="G$1" x="99.06" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.5614" y="143.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="102.362" y="143.51" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C26" gate="G$1" x="71.12" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.929" y="71.374" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="74.549" y="71.374" size="1.778" layer="96" rot="R90"/>
@@ -14150,14 +14142,6 @@ Datasheet (TS53YL502MR10)</description>
 <instance part="C27" gate="G$1" x="76.2" y="60.96" smashed="yes">
 <attribute name="NAME" x="78.994" y="65.151" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.994" y="57.531" size="1.778" layer="96"/>
-</instance>
-<instance part="C28" gate="G$1" x="99.06" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="97.536" y="73.279" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="97.536" y="78.359" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R7" gate="G$1" x="99.06" y="86.36" smashed="yes" rot="R270">
-<attribute name="NAME" x="100.5586" y="90.17" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="95.758" y="90.17" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D1" gate="G$1" x="43.18" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.1" y="132.08" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -14475,6 +14459,22 @@ Datasheet (TS53YL502MR10)</description>
 <attribute name="NAME" x="299.72" y="216.916" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="299.72" y="212.344" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
+<instance part="C11" gate="G$1" x="99.06" y="157.48" smashed="yes">
+<attribute name="NAME" x="96.266" y="160.909" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="96.52" y="157.48" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C12" gate="G$1" x="99.06" y="73.66" smashed="yes">
+<attribute name="NAME" x="96.266" y="77.089" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="96.52" y="73.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R15" gate="G$1" x="99.06" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="148.3614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.25" y="145.542" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R6" gate="G$1" x="99.06" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="87.4014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.25" y="84.582" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14652,10 +14652,10 @@ Datasheet (TS53YL502MR10)</description>
 <wire x1="132.08" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="93.98" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="91.44" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <junction x="99.06" y="93.98"/>
 <label x="114.3" y="93.98" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="R1_LO_P" class="0">
@@ -14820,12 +14820,12 @@ Datasheet (TS53YL502MR10)</description>
 <pinref part="C15" gate="G$1" pin="2"/>
 <label x="114.3" y="132.08" size="1.778" layer="95"/>
 <wire x1="99.06" y1="127" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="142.24" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 <junction x="99.06" y="132.08"/>
 <wire x1="99.06" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="132.08" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="R2_LO_P" class="0">
@@ -15093,16 +15093,16 @@ Datasheet (TS53YL502MR10)</description>
 <pinref part="IC1" gate="G$1" pin="INH2"/>
 <wire x1="99.06" y1="170.18" x2="76.2" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="132.08" x2="165.1" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="162.56" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
 <junction x="99.06" y="170.18"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="C25" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="152.4" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -15114,9 +15114,9 @@ Datasheet (TS53YL502MR10)</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="C28" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="INH4" class="0">
@@ -15124,7 +15124,6 @@ Datasheet (TS53YL502MR10)</description>
 <pinref part="C26" gate="G$1" pin="1"/>
 <label x="114.3" y="68.58" size="1.778" layer="95"/>
 <pinref part="C27" gate="G$1" pin="2"/>
-<pinref part="C28" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="INH3"/>
 <wire x1="175.26" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="93.98" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
@@ -15135,9 +15134,10 @@ Datasheet (TS53YL502MR10)</description>
 <wire x1="99.06" y1="68.58" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <junction x="99.06" y="68.58"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LVOUT_1" class="0">
+<net name="LVOUT_1" class="2">
 <segment>
 <label x="25.4" y="68.58" size="1.778" layer="95" rot="R180" align="top-right"/>
 <pinref part="D2" gate="G$1" pin="ANODE/CATHODE"/>
