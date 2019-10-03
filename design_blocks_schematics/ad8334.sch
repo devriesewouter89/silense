@@ -10727,6 +10727,7 @@ Datasheet (TS53YL502MR10)</description>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="0R"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="DNP"/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="DNP"/>
+<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="274R"/>
 </parts>
 <sheets>
 <sheet>
@@ -11161,6 +11162,10 @@ Datasheet (TS53YL502MR10)</description>
 <attribute name="NAME" x="158.75" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="158.75" y="27.178" size="1.778" layer="96"/>
 </instance>
+<instance part="R12" gate="G$1" x="99.06" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="87.4014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.25" y="84.582" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11359,6 +11364,7 @@ Datasheet (TS53YL502MR10)</description>
 <wire x1="99.06" y1="91.44" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <junction x="99.06" y="93.98"/>
 <label x="114.3" y="93.98" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="R1_LO_P" class="0">
@@ -11819,6 +11825,7 @@ Datasheet (TS53YL502MR10)</description>
 <segment>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="INH4" class="0">
