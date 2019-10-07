@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12501,119 +12501,53 @@ design rules under a new name.
 <contactref element="CONN_FPGA1:J1" pad="C39"/>
 <wire x1="295.275" y1="40.005" x2="296.545" y2="41.275" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="CONN_FPGA1:IN3_0">
+<signal name="CONN_FPGA1:IN2_0">
 <contactref element="CONN_FPGA1:J1" pad="H10"/>
 </signal>
-<signal name="CONN_FPGA1:IN3_1">
+<signal name="CONN_FPGA1:IN2_1">
 <contactref element="CONN_FPGA1:J1" pad="H11"/>
 </signal>
-<signal name="CONN_FPGA1:IN5_0">
+<signal name="CONN_FPGA1:IN4_0">
 <contactref element="CONN_FPGA1:J1" pad="H13"/>
 </signal>
-<signal name="CONN_FPGA1:IN5_1">
+<signal name="CONN_FPGA1:IN4_1">
 <contactref element="CONN_FPGA1:J1" pad="H14"/>
 </signal>
-<signal name="CONN_FPGA1:IN7_0">
+<signal name="CONN_FPGA1:IN6_0">
 <contactref element="CONN_FPGA1:J1" pad="H16"/>
 </signal>
-<signal name="CONN_FPGA1:IN7_1">
+<signal name="CONN_FPGA1:IN6_1">
 <contactref element="CONN_FPGA1:J1" pad="H17"/>
 </signal>
-<signal name="CONN_FPGA1:IN9_0">
+<signal name="CONN_FPGA1:IN8_0">
 <contactref element="CONN_FPGA1:J1" pad="H19"/>
 </signal>
-<signal name="CONN_FPGA1:IN9_1">
+<signal name="CONN_FPGA1:IN8_1">
 <contactref element="CONN_FPGA1:J1" pad="H20"/>
 </signal>
-<signal name="CONN_FPGA1:IN11_0">
+<signal name="CONN_FPGA1:IN10_0">
 <contactref element="CONN_FPGA1:J1" pad="H22"/>
 </signal>
-<signal name="CONN_FPGA1:IN11_1">
+<signal name="CONN_FPGA1:IN10_1">
 <contactref element="CONN_FPGA1:J1" pad="H23"/>
 </signal>
-<signal name="CONN_FPGA1:IN13_0">
-<contactref element="CONN_FPGA1:J1" pad="H25"/>
-</signal>
-<signal name="CONN_FPGA1:IN13_1">
-<contactref element="CONN_FPGA1:J1" pad="H26"/>
-</signal>
-<signal name="CONN_FPGA1:IN15_0">
-<contactref element="CONN_FPGA1:J1" pad="H28"/>
-</signal>
-<signal name="CONN_FPGA1:IN15_1">
-<contactref element="CONN_FPGA1:J1" pad="H29"/>
-</signal>
-<signal name="CONN_FPGA1:LA28_P">
-<contactref element="CONN_FPGA1:J1" pad="H31"/>
-</signal>
-<signal name="CONN_FPGA1:LA28_N">
-<contactref element="CONN_FPGA1:J1" pad="H32"/>
-</signal>
-<signal name="CONN_FPGA1:LA30_P">
-<contactref element="CONN_FPGA1:J1" pad="H34"/>
-</signal>
-<signal name="CONN_FPGA1:LA30_N">
-<contactref element="CONN_FPGA1:J1" pad="H35"/>
-</signal>
-<signal name="CONN_FPGA1:LA32_P">
-<contactref element="CONN_FPGA1:J1" pad="H37"/>
-</signal>
-<signal name="CONN_FPGA1:LA32_N">
-<contactref element="CONN_FPGA1:J1" pad="H38"/>
-</signal>
-<signal name="CONN_FPGA1:IN0_0">
-<contactref element="CONN_FPGA1:J1" pad="G6"/>
-</signal>
 <signal name="CONN_FPGA1:IN0_1">
-<contactref element="CONN_FPGA1:J1" pad="G7"/>
-</signal>
-<signal name="CONN_FPGA1:IN2_0">
-<contactref element="CONN_FPGA1:J1" pad="G9"/>
-</signal>
-<signal name="CONN_FPGA1:IN2_1">
-<contactref element="CONN_FPGA1:J1" pad="G10"/>
-</signal>
-<signal name="CONN_FPGA1:IN4_0">
-<contactref element="CONN_FPGA1:J1" pad="G12"/>
-</signal>
-<signal name="CONN_FPGA1:IN4_1">
-<contactref element="CONN_FPGA1:J1" pad="G13"/>
-</signal>
-<signal name="CONN_FPGA1:IN6_0">
-<contactref element="CONN_FPGA1:J1" pad="G15"/>
-</signal>
-<signal name="CONN_FPGA1:IN6_1">
-<contactref element="CONN_FPGA1:J1" pad="G16"/>
-</signal>
-<signal name="CONN_FPGA1:IN8_0">
-<contactref element="CONN_FPGA1:J1" pad="G18"/>
-</signal>
-<signal name="CONN_FPGA1:IN8_1">
-<contactref element="CONN_FPGA1:J1" pad="G19"/>
-</signal>
-<signal name="CONN_FPGA1:IN10_0">
-<contactref element="CONN_FPGA1:J1" pad="G21"/>
-</signal>
-<signal name="CONN_FPGA1:IN10_1">
-<contactref element="CONN_FPGA1:J1" pad="G22"/>
-</signal>
-<signal name="CONN_FPGA1:IN1_1">
 <contactref element="CONN_FPGA1:J1" pad="H8"/>
 </signal>
-<signal name="CONN_FPGA1:IN1_0">
+<signal name="CONN_FPGA1:IN0_0">
 <contactref element="CONN_FPGA1:J1" pad="H7"/>
 </signal>
 <signal name="CONN_FPGA1:IN12_0">
-<contactref element="CONN_FPGA1:J1" pad="G24"/>
+<contactref element="CONN_FPGA1:J1" pad="H25"/>
 </signal>
 <signal name="CONN_FPGA1:IN12_1">
-<contactref element="CONN_FPGA1:J1" pad="G25"/>
+<contactref element="CONN_FPGA1:J1" pad="H26"/>
 </signal>
 <signal name="CONN_FPGA1:IN14_0">
-<contactref element="CONN_FPGA1:J1" pad="G27"/>
+<contactref element="CONN_FPGA1:J1" pad="H28"/>
 </signal>
 <signal name="CONN_FPGA1:IN14_1">
-<contactref element="CONN_FPGA1:J1" pad="G28"/>
+<contactref element="CONN_FPGA1:J1" pad="H29"/>
 </signal>
 <signal name="POWER1:E1">
 <contactref element="POWER1:IC3" pad="2"/>
@@ -16781,6 +16715,165 @@ design rules under a new name.
 </signal>
 <signal name="RECEIVER4:SDO3">
 <contactref element="RECEIVER4:ADC2:ADC1" pad="24"/>
+</signal>
+<signal name="CONN_FPGA1:IN1_0">
+<contactref element="CONN_FPGA1:J1" pad="G9"/>
+</signal>
+<signal name="CONN_FPGA1:IN1_1">
+<contactref element="CONN_FPGA1:J1" pad="G10"/>
+</signal>
+<signal name="CONN_FPGA1:IN3_0">
+<contactref element="CONN_FPGA1:J1" pad="G12"/>
+</signal>
+<signal name="CONN_FPGA1:IN3_1">
+<contactref element="CONN_FPGA1:J1" pad="G13"/>
+</signal>
+<signal name="CONN_FPGA1:IN5_0">
+<contactref element="CONN_FPGA1:J1" pad="G15"/>
+</signal>
+<signal name="CONN_FPGA1:IN5_1">
+<contactref element="CONN_FPGA1:J1" pad="G16"/>
+</signal>
+<signal name="CONN_FPGA1:IN7_0">
+<contactref element="CONN_FPGA1:J1" pad="G18"/>
+</signal>
+<signal name="CONN_FPGA1:IN7_1">
+<contactref element="CONN_FPGA1:J1" pad="G19"/>
+</signal>
+<signal name="CONN_FPGA1:IN9_0">
+<contactref element="CONN_FPGA1:J1" pad="G21"/>
+</signal>
+<signal name="CONN_FPGA1:IN9_1">
+<contactref element="CONN_FPGA1:J1" pad="G22"/>
+</signal>
+<signal name="CONN_FPGA1:IN11_0">
+<contactref element="CONN_FPGA1:J1" pad="G24"/>
+</signal>
+<signal name="CONN_FPGA1:IN11_1">
+<contactref element="CONN_FPGA1:J1" pad="G25"/>
+</signal>
+<signal name="CONN_FPGA1:IN13_0">
+<contactref element="CONN_FPGA1:J1" pad="G27"/>
+</signal>
+<signal name="CONN_FPGA1:IN13_1">
+<contactref element="CONN_FPGA1:J1" pad="G28"/>
+</signal>
+<signal name="CONN_FPGA1:IN15_0">
+<contactref element="CONN_FPGA1:J1" pad="G30"/>
+</signal>
+<signal name="CONN_FPGA1:IN15_1">
+<contactref element="CONN_FPGA1:J1" pad="G31"/>
+</signal>
+<signal name="CONN_FPGA1:CW">
+<contactref element="CONN_FPGA1:J1" pad="H31"/>
+</signal>
+<signal name="CONN_FPGA1:SDO0_3">
+<contactref element="CONN_FPGA1:J1" pad="H34"/>
+</signal>
+<signal name="CONN_FPGA1:SDO0_2">
+<contactref element="CONN_FPGA1:J1" pad="H35"/>
+</signal>
+<signal name="CONN_FPGA1:SDO0_1">
+<contactref element="CONN_FPGA1:J1" pad="G33"/>
+</signal>
+<signal name="CONN_FPGA1:SDO0_0">
+<contactref element="CONN_FPGA1:J1" pad="G34"/>
+</signal>
+<signal name="CONN_FPGA1:CNV3">
+<contactref element="CONN_FPGA1:J1" pad="G37"/>
+</signal>
+<signal name="CONN_FPGA1:CNV2">
+<contactref element="CONN_FPGA1:J1" pad="G36"/>
+</signal>
+<signal name="CONN_FPGA1:CNV0">
+<contactref element="CONN_FPGA1:J1" pad="H37"/>
+</signal>
+<signal name="CONN_FPGA1:CNV1">
+<contactref element="CONN_FPGA1:J1" pad="H38"/>
+</signal>
+<signal name="CONN_FPGA1:SDO1_1">
+<contactref element="CONN_FPGA1:J1" pad="C10"/>
+</signal>
+<signal name="CONN_FPGA1:SDO1_0">
+<contactref element="CONN_FPGA1:J1" pad="C11"/>
+</signal>
+<signal name="CONN_FPGA1:SDO2_1">
+<contactref element="CONN_FPGA1:J1" pad="C14"/>
+</signal>
+<signal name="CONN_FPGA1:SDO2_0">
+<contactref element="CONN_FPGA1:J1" pad="C15"/>
+</signal>
+<signal name="CONN_FPGA1:SDO3_3">
+<contactref element="CONN_FPGA1:J1" pad="C18"/>
+</signal>
+<signal name="CONN_FPGA1:SDO3_2">
+<contactref element="CONN_FPGA1:J1" pad="C19"/>
+</signal>
+<signal name="CONN_FPGA1:SDO1_3">
+<contactref element="CONN_FPGA1:J1" pad="D11"/>
+</signal>
+<signal name="CONN_FPGA1:SDO1_2">
+<contactref element="CONN_FPGA1:J1" pad="D12"/>
+</signal>
+<signal name="CONN_FPGA1:SDO2_3">
+<contactref element="CONN_FPGA1:J1" pad="D14"/>
+</signal>
+<signal name="CONN_FPGA1:SDO2_2">
+<contactref element="CONN_FPGA1:J1" pad="D15"/>
+</signal>
+<signal name="CONN_FPGA1:SDO3_1">
+<contactref element="CONN_FPGA1:J1" pad="D17"/>
+</signal>
+<signal name="CONN_FPGA1:SDO3_0">
+<contactref element="CONN_FPGA1:J1" pad="D18"/>
+</signal>
+<signal name="CONN_FPGA1:SDI2">
+<contactref element="CONN_FPGA1:J1" pad="D23"/>
+</signal>
+<signal name="CONN_FPGA1:SDI3">
+<contactref element="CONN_FPGA1:J1" pad="D24"/>
+</signal>
+<signal name="CONN_FPGA1:BUSY2">
+<contactref element="CONN_FPGA1:J1" pad="C26"/>
+</signal>
+<signal name="CONN_FPGA1:BUSY3">
+<contactref element="CONN_FPGA1:J1" pad="C27"/>
+</signal>
+<signal name="CONN_FPGA1:ADC_CLK_1">
+<contactref element="CONN_FPGA1:J1" pad="G7"/>
+</signal>
+<signal name="CONN_FPGA1:ADC_CLK_0">
+<contactref element="CONN_FPGA1:J1" pad="G6"/>
+</signal>
+<signal name="CONN_FPGA1:ADC_CLK_2">
+<contactref element="CONN_FPGA1:J1" pad="H4"/>
+</signal>
+<signal name="CONN_FPGA1:SDI1">
+<contactref element="CONN_FPGA1:J1" pad="D21"/>
+</signal>
+<signal name="CONN_FPGA1:SDI0">
+<contactref element="CONN_FPGA1:J1" pad="D20"/>
+</signal>
+<signal name="CONN_FPGA1:BUSY0">
+<contactref element="CONN_FPGA1:J1" pad="D26"/>
+</signal>
+<signal name="CONN_FPGA1:BUSY1">
+<contactref element="CONN_FPGA1:J1" pad="D27"/>
+</signal>
+<signal name="CONN_FPGA1:CS0">
+<contactref element="CONN_FPGA1:J1" pad="D8"/>
+</signal>
+<signal name="CONN_FPGA1:CS1">
+<contactref element="CONN_FPGA1:J1" pad="D9"/>
+</signal>
+<signal name="CONN_FPGA1:CS2">
+<contactref element="CONN_FPGA1:J1" pad="C22"/>
+</signal>
+<signal name="CONN_FPGA1:CS3">
+<contactref element="CONN_FPGA1:J1" pad="C23"/>
+</signal>
+<signal name="CONN_FPGA1:ADC_CLK3">
+<contactref element="CONN_FPGA1:J1" pad="G2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
