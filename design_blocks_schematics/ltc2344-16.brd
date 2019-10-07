@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1736,21 +1736,21 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C1210" urn="urn:adsk.eagle:footprint:23126/1" library_version="10">
+<package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" library_version="10">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
-<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
-<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <packages3d>
@@ -1761,10 +1761,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="C1210" urn="urn:adsk.eagle:package:23619/2" type="model" library_version="10">
+<package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="10">
 <description>CAPACITOR</description>
 <packageinstances>
-<packageinstance name="C1210"/>
+<packageinstance name="C0603"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1968,9 +1968,9 @@ design rules under a new name.
 <attribute name="SPICEPREFIX" value="C" x="-19.05" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-10.795" y="-27.305" size="1.27" layer="27"/>
 </element>
-<element name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="47uf" x="1.27" y="-16.51" smashed="yes">
+<element name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf 6.3V" x="1.27" y="-16.51" smashed="yes">
 <attribute name="NAME" x="-0.635" y="-14.605" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="0" x="-17.78" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="73" x="-17.78" y="-21.59" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-17.78" y="-21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-0.635" y="-19.685" size="1.27" layer="27"/>
 </element>
@@ -1996,32 +1996,32 @@ design rules under a new name.
 <signals>
 <signal name="GND" class="2">
 <contactref element="ADC1" pad="9"/>
-<contactref element="ADC1" pad="20"/>
-<contactref element="ADC1" pad="29"/>
-<contactref element="C141" pad="2"/>
-<contactref element="C143" pad="2"/>
 <contactref element="C139" pad="2"/>
 <contactref element="ADC1" pad="11"/>
 <contactref element="C140" pad="2"/>
 <contactref element="ADC1" pad="13"/>
 <contactref element="ADC1" pad="14"/>
-<contactref element="ADC1" pad="EXP"/>
-<contactref element="ADC1" pad="32"/>
+<contactref element="ADC1" pad="29"/>
+<contactref element="ADC1" pad="20"/>
+<contactref element="C143" pad="2"/>
+<contactref element="C141" pad="2"/>
 <contactref element="ADC1" pad="31"/>
 <contactref element="C142" pad="2"/>
+<contactref element="ADC1" pad="32"/>
+<contactref element="ADC1" pad="EXP"/>
 <wire x1="-9.51" y1="-25.4" x2="-9.51" y2="-30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.37" y1="-20.08" x2="-9.51" y2="-25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.37" y1="-20.08" x2="-9.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.37" y1="-20.08" x2="-8.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-6.87" y1="-20.08" x2="-7.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.62" y1="-17.78" x2="-7.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.32" y1="-18.03" x2="-7.62" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.87" y1="-15.48" x2="-7.62" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.87" y1="-15.48" x2="-7.87" y2="-15.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.37" y1="-15.48" x2="-8.87" y2="-15.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.32" y1="-18.03" x2="-7.62" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.16" y1="-30.48" x2="-9.51" y2="-30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.16" y1="-25.4" x2="-3.16" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="2.67" y1="-16.51" x2="-5.32" y2="-18.03" width="0" layer="19" extent="1-1"/>
+<wire x1="2.12" y1="-16.51" x2="-5.32" y2="-18.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$81">
 <contactref element="ADC1" pad="10"/>
@@ -2031,7 +2031,7 @@ design rules under a new name.
 <signal name="N$82">
 <contactref element="ADC1" pad="12"/>
 <contactref element="C140" pad="1"/>
-<wire x1="-0.13" y1="-16.51" x2="-7.87" y2="-20.08" width="0" layer="19" extent="1-1"/>
+<wire x1="0.42" y1="-16.51" x2="-7.87" y2="-20.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CNV">
 <contactref element="ADC1" pad="15"/>
@@ -2046,9 +2046,6 @@ design rules under a new name.
 </signal>
 <signal name="SDO0">
 <contactref element="ADC1" pad="17"/>
-</signal>
-<signal name="SDO1">
-<contactref element="ADC1" pad="18"/>
 </signal>
 <signal name="SDO2">
 <contactref element="ADC1" pad="23"/>
@@ -2089,15 +2086,18 @@ design rules under a new name.
 <signal name="ADIN3_N">
 <contactref element="ADC1" pad="1"/>
 </signal>
-<signal name="OVDD">
-<contactref element="C143" pad="1"/>
-<contactref element="ADC1" pad="21"/>
-<wire x1="-5.32" y1="-17.53" x2="-4.46" y2="-30.48" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="5V">
+<signal name="+5V">
 <contactref element="ADC1" pad="30"/>
 <contactref element="C142" pad="1"/>
 <wire x1="-8.37" y1="-15.48" x2="-10.81" y2="-30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="ADC1" pad="21"/>
+<contactref element="C143" pad="1"/>
+<wire x1="-5.32" y1="-17.53" x2="-4.46" y2="-30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDO1">
+<contactref element="ADC1" pad="18"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
