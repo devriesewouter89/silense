@@ -8456,7 +8456,11 @@ DIN A3, landscape with location and doc. field</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="2" name="power" width="0.4" drill="0">
+<class number="1" name="power_cw" width="0.2" drill="0">
+</class>
+<class number="2" name="power" width="0.3" drill="0">
+</class>
+<class number="3" name="low_voltage" width="0" drill="0">
 </class>
 </classes>
 <parts>
@@ -8790,7 +8794,7 @@ TODO: separate inx_1</text>
 <wire x1="219.44" y1="93.44" x2="224.52" y2="93.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C170" gate="G$1" pin="2"/>
@@ -8994,7 +8998,7 @@ TODO: separate inx_1</text>
 <label x="237.22" y="131.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDDP" class="0">
+<net name="VDDP" class="1">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="VDDP"/>
 <label x="214.36" y="108.68" size="1.778" layer="95"/>
@@ -9003,7 +9007,7 @@ TODO: separate inx_1</text>
 <wire x1="234.68" y1="108.68" x2="209.28" y2="108.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDDM" class="0">
+<net name="VDDM" class="1">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="VDDM"/>
 <pinref part="C181" gate="G$1" pin="1"/>
@@ -9156,42 +9160,42 @@ TODO: separate inx_1</text>
 <label x="267.7" y="205.2" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="LVOUT_5" class="0">
+<net name="LVOUT_5" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_6"/>
 <wire x1="163.56" y1="88.36" x2="163.56" y2="80.74" width="0.1524" layer="91"/>
 <label x="163.56" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
-<net name="LVOUT_6" class="0">
+<net name="LVOUT_6" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_7"/>
 <wire x1="166.1" y1="88.36" x2="166.1" y2="80.74" width="0.1524" layer="91"/>
 <label x="166.1" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
-<net name="LVOUT_3" class="0">
+<net name="LVOUT_3" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_4"/>
 <wire x1="161.02" y1="156.94" x2="161.02" y2="164.56" width="0.1524" layer="91"/>
 <label x="161.02" y="162.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LVOUT_2" class="0">
+<net name="LVOUT_2" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_3"/>
 <wire x1="163.56" y1="156.94" x2="163.56" y2="164.56" width="0.1524" layer="91"/>
 <label x="163.56" y="162.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LVOUT_1" class="0">
+<net name="LVOUT_1" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_2"/>
 <wire x1="166.1" y1="156.94" x2="166.1" y2="164.56" width="0.1524" layer="91"/>
 <label x="166.1" y="162.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LVOUT_0" class="0">
+<net name="LVOUT_0" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_1"/>
 <wire x1="168.64" y1="156.94" x2="168.64" y2="164.56" width="0.1524" layer="91"/>
@@ -9203,7 +9207,7 @@ TODO: separate inx_1</text>
 <label x="214.36" y="70.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HVM_CW" class="0">
+<net name="HVM_CW" class="1">
 <segment>
 <pinref part="C191" gate="G$1" pin="2"/>
 <wire x1="120.38" y1="116.3" x2="105.14" y2="116.3" width="0.1524" layer="91"/>
@@ -9215,14 +9219,14 @@ TODO: separate inx_1</text>
 <junction x="120.38" y="116.3"/>
 </segment>
 </net>
-<net name="LVOUT_4" class="0">
+<net name="LVOUT_4" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_5"/>
 <wire x1="161.02" y1="88.36" x2="161.02" y2="80.74" width="0.1524" layer="91"/>
 <label x="161.02" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
-<net name="LVOUT_7" class="0">
+<net name="LVOUT_7" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_8"/>
 <wire x1="168.64" y1="88.36" x2="168.64" y2="80.74" width="0.1524" layer="91"/>

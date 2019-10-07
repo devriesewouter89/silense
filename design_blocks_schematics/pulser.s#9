@@ -9366,7 +9366,7 @@ TODO: separate inx_1</text>
 <label x="239.76" y="60.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HVM" class="0">
+<net name="HVM" class="2">
 <segment>
 <wire x1="140.7" y1="121.38" x2="133.08" y2="121.38" width="0.1524" layer="91"/>
 <wire x1="140.7" y1="118.84" x2="133.08" y2="118.84" width="0.1524" layer="91"/>

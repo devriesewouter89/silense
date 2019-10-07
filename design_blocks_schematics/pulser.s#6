@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8927,27 +8927,18 @@ TODO: separate inx_1</text>
 <junction x="265.16" y="116.3"/>
 <wire x1="280.4" y1="116.3" x2="265.16" y2="116.3" width="0.1524" layer="91"/>
 <pinref part="C172" gate="G$1" pin="2"/>
-<pinref part="STHV_0" gate="G$1" pin="HVP@1"/>
-<wire x1="214.36" y1="126.46" x2="209.28" y2="126.46" width="0.1524" layer="91"/>
-<pinref part="STHV_0" gate="G$1" pin="HVP@2"/>
-<pinref part="STHV_0" gate="G$1" pin="HVP@3"/>
-<wire x1="209.28" y1="121.38" x2="214.36" y2="121.38" width="0.1524" layer="91"/>
-<pinref part="STHV_0" gate="G$1" pin="HVP@4"/>
-<wire x1="214.36" y1="116.3" x2="214.36" y2="118.84" width="0.1524" layer="91"/>
-<wire x1="214.36" y1="118.84" x2="209.28" y2="118.84" width="0.1524" layer="91"/>
-<junction x="214.36" y="118.84"/>
-<wire x1="214.36" y1="118.84" x2="214.36" y2="121.38" width="0.1524" layer="91"/>
-<junction x="214.36" y="121.38"/>
-<wire x1="214.36" y1="121.38" x2="214.36" y2="123.92" width="0.1524" layer="91"/>
-<wire x1="214.36" y1="123.92" x2="209.28" y2="123.92" width="0.1524" layer="91"/>
-<junction x="214.36" y="123.92"/>
-<wire x1="214.36" y1="123.92" x2="214.36" y2="126.46" width="0.1524" layer="91"/>
-<wire x1="214.36" y1="123.92" x2="214.36" y2="116.3" width="0.1524" layer="91"/>
-<junction x="214.36" y="116.3"/>
 <pinref part="STHV_0" gate="G$1" pin="HVP@5"/>
-<wire x1="209.28" y1="116.3" x2="214.36" y2="116.3" width="0.1524" layer="91"/>
-<label x="232.14" y="116.3" size="1.778" layer="95"/>
 <wire x1="209.28" y1="116.3" x2="265.16" y2="116.3" width="0.1524" layer="91"/>
+<wire x1="209.28" y1="116.3" x2="214.376" y2="116.3" width="0.1524" layer="91"/>
+<wire x1="214.376" y1="116.3" x2="214.376" y2="118.872" width="0.1524" layer="91"/>
+<junction x="214.376" y="126.365"/>
+<wire x1="214.376" y1="118.872" x2="214.376" y2="121.285" width="0.1524" layer="91"/>
+<wire x1="214.376" y1="121.285" x2="214.376" y2="123.825" width="0.1524" layer="91"/>
+<wire x1="214.376" y1="123.825" x2="214.376" y2="126.365" width="0.1524" layer="91"/>
+<wire x1="214.376" y1="126.365" x2="214.376" y2="126.492" width="0.1524" layer="91"/>
+<junction x="214.376" y="123.825"/>
+<junction x="214.376" y="121.285"/>
+<junction x="214.376" y="118.872"/>
 </segment>
 <segment>
 <pinref part="D0_0" gate="G$1" pin="C"/>
@@ -8982,6 +8973,22 @@ TODO: separate inx_1</text>
 <wire x1="110.22" y1="169.64" x2="110.22" y2="182.34" width="0.1524" layer="91"/>
 <junction x="110.22" y="182.34"/>
 <label x="74.66" y="205.2" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="STHV_0" gate="G$1" pin="HVP@1"/>
+<wire x1="214.36" y1="126.46" x2="209.28" y2="126.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="STHV_0" gate="G$1" pin="HVP@2"/>
+<wire x1="214.36" y1="123.92" x2="209.28" y2="123.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="STHV_0" gate="G$1" pin="HVP@3"/>
+<wire x1="209.28" y1="121.38" x2="214.36" y2="121.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="STHV_0" gate="G$1" pin="HVP@4"/>
+<wire x1="214.36" y1="118.84" x2="209.28" y2="118.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HVP_CW" class="0">
@@ -9436,6 +9443,12 @@ TODO: separate inx_1</text>
 <junction x="115.3" y="154.4"/>
 <junction x="79.74" y="164.56"/>
 <label x="84.82" y="154.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="2">
+<segment>
+<junction x="214.36" y="116.3"/>
+<label x="232.14" y="116.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

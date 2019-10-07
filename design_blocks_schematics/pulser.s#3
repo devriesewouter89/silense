@@ -8733,8 +8733,8 @@ TODO: separate inx_1</text>
 <instance part="GND2" gate="1" x="153.4" y="157.575" smashed="yes">
 <attribute name="VALUE" x="150.86" y="155.035" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="155.94" y="83.28" smashed="yes">
-<attribute name="VALUE" x="153.4" y="80.74" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="156.194" y="82.518" smashed="yes">
+<attribute name="VALUE" x="153.654" y="79.978" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="91.424" y="121.888" smashed="yes">
 <attribute name="VALUE" x="88.884" y="119.348" size="1.778" layer="96"/>
@@ -8803,13 +8803,13 @@ TODO: separate inx_1</text>
 </segment>
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="GND_PWR@2"/>
-<wire x1="171.4467" y1="88.8934" x2="171.18" y2="85.82" width="0.1524" layer="91"/>
+<wire x1="171.4467" y1="88.8934" x2="171.434" y2="85.058" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="155.94" y1="85.82" x2="158.48" y2="85.82" width="0.1524" layer="91"/>
+<wire x1="156.194" y1="85.058" x2="158.734" y2="85.058" width="0.1524" layer="91"/>
 <pinref part="STHV_0" gate="G$1" pin="GND_PWR@1"/>
-<wire x1="158.48" y1="85.82" x2="171.18" y2="85.82" width="0.1524" layer="91"/>
-<wire x1="158.48" y1="85.82" x2="158.7467" y2="88.8934" width="0.1524" layer="91"/>
-<junction x="158.48" y="85.82"/>
+<wire x1="158.734" y1="85.058" x2="171.434" y2="85.058" width="0.1524" layer="91"/>
+<wire x1="158.734" y1="85.058" x2="158.7467" y2="88.8934" width="0.1524" layer="91"/>
+<junction x="158.734" y="85.058"/>
 </segment>
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="AGND"/>
@@ -9129,14 +9129,14 @@ TODO: separate inx_1</text>
 <net name="LVOUT_5" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_6"/>
-<wire x1="163.8267" y1="88.8934" x2="163.56" y2="80.74" width="0.1524" layer="91"/>
+<wire x1="163.8267" y1="88.8934" x2="163.814" y2="81.248" width="0.1524" layer="91"/>
 <label x="163.56" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
 <net name="LVOUT_6" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_7"/>
-<wire x1="166.3667" y1="88.8934" x2="166.1" y2="80.74" width="0.1524" layer="91"/>
+<wire x1="166.3667" y1="88.8934" x2="166.354" y2="81.248" width="0.1524" layer="91"/>
 <label x="166.1" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
@@ -9188,14 +9188,14 @@ TODO: separate inx_1</text>
 <net name="LVOUT_4" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_5"/>
-<wire x1="161.2867" y1="88.8934" x2="161.02" y2="80.74" width="0.1524" layer="91"/>
+<wire x1="161.2867" y1="88.8934" x2="161.274" y2="81.248" width="0.1524" layer="91"/>
 <label x="161.02" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
 <net name="LVOUT_7" class="3">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="LVOUT_8"/>
-<wire x1="168.9067" y1="88.8934" x2="168.64" y2="80.74" width="0.1524" layer="91"/>
+<wire x1="168.9067" y1="88.8934" x2="168.894" y2="81.248" width="0.1524" layer="91"/>
 <label x="168.64" y="83.28" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
@@ -9217,56 +9217,56 @@ TODO: separate inx_1</text>
 <net name="IN4_0" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN5_0"/>
-<wire x1="173.9867" y1="88.8934" x2="173.72" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="173.9867" y1="88.8934" x2="173.974" y2="81.265" width="0.1524" layer="91"/>
 <label x="173.72" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN4_1" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN5_1"/>
-<wire x1="176.5267" y1="88.8934" x2="176.26" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="176.5267" y1="88.8934" x2="176.514" y2="81.138" width="0.1524" layer="91"/>
 <label x="176.26" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN5_0" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN6_0"/>
-<wire x1="179.0667" y1="88.8934" x2="178.8" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="179.0667" y1="88.8934" x2="179.054" y2="81.138" width="0.1524" layer="91"/>
 <label x="178.8" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN5_1" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN6_1"/>
-<wire x1="181.6067" y1="88.8934" x2="181.34" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="181.6067" y1="88.8934" x2="181.594" y2="81.138" width="0.1524" layer="91"/>
 <label x="181.34" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN6_0" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN7_0"/>
-<wire x1="184.1467" y1="88.8934" x2="183.88" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="184.1467" y1="88.8934" x2="184.134" y2="81.138" width="0.1524" layer="91"/>
 <label x="183.88" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN6_1" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN7_1"/>
-<wire x1="186.6867" y1="88.8934" x2="186.42" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="186.6867" y1="88.8934" x2="186.674" y2="81.138" width="0.1524" layer="91"/>
 <label x="186.42" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN7_0" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN8_0"/>
-<wire x1="189.2267" y1="88.8934" x2="188.96" y2="79.36" width="0.1524" layer="91"/>
-<label x="188.96" y="80.36" size="1.778" layer="95" rot="R90"/>
+<wire x1="189.2267" y1="88.8934" x2="189.214" y2="81.011" width="0.1524" layer="91"/>
+<label x="188.833" y="80.487" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN7_1" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN8_1"/>
-<wire x1="191.7667" y1="88.8934" x2="191.5" y2="79.36" width="0.1524" layer="91"/>
+<wire x1="191.7667" y1="88.8934" x2="191.754" y2="81.011" width="0.1524" layer="91"/>
 <label x="191.5" y="80.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>

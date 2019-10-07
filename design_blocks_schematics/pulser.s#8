@@ -8790,7 +8790,7 @@ TODO: separate inx_1</text>
 <wire x1="219.44" y1="93.44" x2="224.52" y2="93.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C170" gate="G$1" pin="2"/>
