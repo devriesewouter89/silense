@@ -6,11 +6,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -186,6 +186,10 @@
 </layers>
 <board>
 <plain>
+<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
+<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="wouter" urn="urn:adsk.eagle:library:7442707">
@@ -1736,21 +1740,21 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" library_version="10">
+<package name="C1210" urn="urn:adsk.eagle:footprint:23126/1" library_version="10">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <packages3d>
@@ -1761,10 +1765,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="10">
+<package3d name="C1210" urn="urn:adsk.eagle:package:23619/2" type="model" library_version="10">
 <description>CAPACITOR</description>
 <packageinstances>
-<packageinstance name="C0603"/>
+<packageinstance name="C1210"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1780,74 +1784,112 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <class number="2" name="power" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="eC_4Layer_PClass8_BaseCopperO12-I18">
+<description language="de">
+
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.
+&lt;b&gt;Eurocircuits-EAGLE design rules&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Setup for &lt;b&gt;4-layer PatternClass8 BaseCopperO12-I18&lt;/b&gt;
+&lt;p&gt;
+ The option &lt;b&gt;Sizes-Minimum Drill&lt;/b&gt; is set to 0.25mm. This minimum drill endsize can be set lower if needed. Values below 0.25mm will result in a higher DrillClassification. For details see the Eurocircuits Classification overview.
+&lt;p&gt;
+&lt;u&gt;Extra Notes:&lt;/u&gt;&lt;br&gt;
+- The option &lt;b&gt;Distance-Copper/Dimension&lt;/b&gt; is set to 0.25mm, the default for boards with a routed boardoutline. If you require Vcut on your board this parameter should be set to 0.45mm.&lt;br&gt;
+- The option &lt;b&gt;Supply-Generate thermals for vias&lt;/b&gt; is on by default but may be changed if required.&lt;br&gt;
+- The option &lt;b&gt;Mask-Stop&lt;/b&gt; is set to 0mm oversize which is the preffered value.&lt;br&gt;
+- The option &lt;b&gt;Mask-Cream&lt;/b&gt; is set to 0mm oversize by default, but may be changed if required&lt;br&gt;
+- The option &lt;b&gt;Mask-Limit&lt;/b&gt; is set to 0.45mm, resulting in covered or tented via holes for vias of 0.45mm and smaller. The option may be changed if required.&lt;br&gt;
+- The options &lt;b&gt;Shapes&lt;/b&gt; and &lt;b&gt;Misc&lt;/b&gt; are not relevant. Values for &lt;b&gt;Shapes-Smds-Roundness&lt;/b&gt; are not critical and can be set as you require.
+&lt;p&gt;
+&lt;p&gt;
+You can set higher minimum values if you wish, setting lower minimum values is &lt;u&gt;not advisable&lt;/u&gt;.&lt;br&gt;
+If you need lower minimum values, please use a different Eurocircuits-EAGLE design rule file. For details see the Eurocircuits-EAGLE dru overview table.
+&lt;p&gt;
+Your Eurocircuits Team
 </description>
-<param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="0.15mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<description language="en">
+
+&lt;p&gt;
+&lt;b&gt;Eurocircuits-EAGLE design rules&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Setup for &lt;b&gt;4-layer PatternClass8 BaseCopperO12-I18&lt;/b&gt;
+&lt;p&gt;
+ The option &lt;b&gt;Sizes-Minimum Drill&lt;/b&gt; is set to 0.25mm. This minimum drill endsize can be set lower if needed. Values below 0.25mm will result in a higher DrillClassification. For details see the Eurocircuits Classification overview.
+&lt;p&gt;
+&lt;u&gt;Extra Notes:&lt;/u&gt;&lt;br&gt;
+- The option &lt;b&gt;Distance-Copper/Dimension&lt;/b&gt; is set to 0.25mm, the default for boards with a routed boardoutline. If you require Vcut on your board this parameter should be set to 0.45mm.&lt;br&gt;
+- The option &lt;b&gt;Supply-Generate thermals for vias&lt;/b&gt; is on by default but may be changed if required.&lt;br&gt;
+- The option &lt;b&gt;Mask-Stop&lt;/b&gt; is set to 0mm oversize which is the preffered value.&lt;br&gt;
+- The option &lt;b&gt;Mask-Cream&lt;/b&gt; is set to 0mm oversize by default, but may be changed if required&lt;br&gt;
+- The option &lt;b&gt;Mask-Limit&lt;/b&gt; is set to 0.45mm, resulting in covered or tented via holes for vias of 0.45mm and smaller. The option may be changed if required.&lt;br&gt;
+- The options &lt;b&gt;Shapes&lt;/b&gt; and &lt;b&gt;Misc&lt;/b&gt; are not relevant. Values for &lt;b&gt;Shapes-Smds-Roundness&lt;/b&gt; are not critical and can be set as you require.
+&lt;p&gt;
+&lt;p&gt;
+You can set higher minimum values if you wish, setting lower minimum values is &lt;u&gt;not advisable&lt;/u&gt;.&lt;br&gt;
+If you need lower minimum values, please use a different Eurocircuits-EAGLE design rule file. For details see the Eurocircuits-EAGLE dru overview table.
+&lt;p&gt;
+Your Eurocircuits Team
+</description>
+<param name="layerSetup" value="(1+2*3+16)"/>
+<param name="mtCopper" value="0.012mm 0.018mm 0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.012mm"/>
+<param name="mtIsolate" value="0.36mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="0.1mm"/>
+<param name="mdWirePad" value="0.1mm"/>
+<param name="mdWireVia" value="0.1mm"/>
+<param name="mdPadPad" value="0.1mm"/>
+<param name="mdPadVia" value="0.1mm"/>
+<param name="mdViaVia" value="0.1mm"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="0.25mm"/>
+<param name="mdDrill" value="0.35mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="0.1mm"/>
+<param name="msDrill" value="0.25mm"/>
+<param name="msMicroVia" value="25mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0.25"/>
-<param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="0.15mm"/>
+<param name="rlMaxPadTop" value="2.5mm"/>
+<param name="rlMinPadInner" value="0.175mm"/>
+<param name="rlMaxPadInner" value="2.5mm"/>
+<param name="rlMinPadBottom" value="0.15mm"/>
+<param name="rlMaxPadBottom" value="2.5mm"/>
+<param name="rlMinViaOuter" value="0.1mm"/>
+<param name="rlMaxViaOuter" value="2.5mm"/>
+<param name="rlMinViaInner" value="0.125mm"/>
+<param name="rlMaxViaInner" value="2.5mm"/>
+<param name="rlMinMicroViaOuter" value="2.5mm"/>
+<param name="rlMaxMicroViaOuter" value="25mm"/>
+<param name="rlMinMicroViaInner" value="2.5mm"/>
+<param name="rlMaxMicroViaInner" value="25mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.45mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
-<param name="slThermalsForVias" value="0"/>
+<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalsForVias" value="1"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
@@ -1859,7 +1901,7 @@ design rules under a new name.
 <param name="checkWireStubs" value="1"/>
 <param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
-<param name="maxErrors" value="999999"/>
+<param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
@@ -1958,80 +2000,93 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="ADC1" library="wouter" library_urn="urn:adsk.eagle:library:7442707" package="QFN32" value="LTC2344-16" x="-7.62" y="-17.78" smashed="yes">
-<attribute name="NAME" x="-11.42" y="-14.53" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-11.67" y="-22.13" size="1.27" layer="27"/>
+<element name="ADC1" library="wouter" library_urn="urn:adsk.eagle:library:7442707" package="QFN32" value="LTC2344-16" x="30.48" y="39.37" smashed="yes">
+<attribute name="NAME" x="26.68" y="42.62" size="1.27" layer="25"/>
+<attribute name="VALUE" x="27.21" y="32.526" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C139" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="-10.16" y="-25.4" smashed="yes">
-<attribute name="NAME" x="-10.795" y="-24.765" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="18" x="-19.05" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-19.05" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-10.795" y="-27.305" size="1.27" layer="27"/>
+<element name="C139" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="29.337" y="34.798" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.972" y="35.433" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="18" x="16.637" y="8.128" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="16.637" y="8.128" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf 6.3V" x="1.27" y="-16.51" smashed="yes">
-<attribute name="NAME" x="-0.635" y="-14.605" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-17.78" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-17.78" y="-21.59" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-0.635" y="-19.685" size="1.27" layer="27"/>
+<element name="C140" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="47uf 10V" x="31.496" y="33.782" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.401" y="35.687" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="0" x="17.526" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="17.526" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C141" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uf" x="-3.81" y="-25.4" smashed="yes">
-<attribute name="NAME" x="-4.445" y="-24.765" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="18" x="-19.05" y="-27.94" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-19.05" y="-27.94" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-4.445" y="-27.305" size="1.27" layer="27"/>
+<element name="C141" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uf" x="30.734" y="43.688" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.099" y="43.053" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="18" x="51.054" y="61.468" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="51.054" y="61.468" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C142" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="-10.16" y="-30.48" smashed="yes">
-<attribute name="NAME" x="-10.795" y="-29.845" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="18" x="-19.05" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-19.05" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-10.795" y="-32.385" size="1.27" layer="27"/>
+<element name="C142" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="29.464" y="43.688" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.829" y="43.053" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="18" x="49.784" y="67.818" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="49.784" y="67.818" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C143" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="-3.81" y="-30.48" smashed="yes">
-<attribute name="NAME" x="-4.445" y="-29.845" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="18" x="-19.05" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-19.05" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-4.445" y="-32.385" size="1.27" layer="27"/>
+<element name="C143" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uf" x="34.798" y="39.624" smashed="yes">
+<attribute name="NAME" x="34.163" y="40.259" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="18" x="52.578" y="14.224" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="52.578" y="14.224" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="GND" class="2">
-<contactref element="ADC1" pad="9"/>
-<contactref element="C139" pad="2"/>
 <contactref element="ADC1" pad="11"/>
-<contactref element="C140" pad="2"/>
 <contactref element="ADC1" pad="13"/>
 <contactref element="ADC1" pad="14"/>
-<contactref element="ADC1" pad="29"/>
 <contactref element="ADC1" pad="20"/>
-<contactref element="C143" pad="2"/>
-<contactref element="C141" pad="2"/>
+<contactref element="ADC1" pad="29"/>
 <contactref element="ADC1" pad="31"/>
-<contactref element="C142" pad="2"/>
 <contactref element="ADC1" pad="32"/>
 <contactref element="ADC1" pad="EXP"/>
-<wire x1="-9.51" y1="-25.4" x2="-9.51" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.37" y1="-20.08" x2="-9.51" y2="-25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.37" y1="-20.08" x2="-9.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.37" y1="-20.08" x2="-8.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.87" y1="-20.08" x2="-7.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.62" y1="-17.78" x2="-7.37" y2="-20.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.87" y1="-15.48" x2="-7.62" y2="-17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.87" y1="-15.48" x2="-7.87" y2="-15.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.37" y1="-15.48" x2="-8.87" y2="-15.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.32" y1="-18.03" x2="-7.62" y2="-17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.16" y1="-30.48" x2="-9.51" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.16" y1="-25.4" x2="-3.16" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="2.12" y1="-16.51" x2="-5.32" y2="-18.03" width="0" layer="19" extent="1-1"/>
+<contactref element="C141" pad="2"/>
+<contactref element="C143" pad="2"/>
+<contactref element="C142" pad="2"/>
+<contactref element="C140" pad="2"/>
+<contactref element="C139" pad="2"/>
+<contactref element="ADC1" pad="9"/>
+<wire x1="31.496" y1="32.382" x2="31.496" y2="31.7714" width="0.1524" layer="1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="25.146" y="45.466"/>
+<vertex x="25.146" y="31.75"/>
+<vertex x="36.83" y="31.75"/>
+<vertex x="37.084" y="32.004"/>
+<vertex x="37.084" y="45.974"/>
+<vertex x="25.654" y="45.974"/>
+</polygon>
+<wire x1="30.23" y1="41.67" x2="30.23" y2="39.62" width="0.1524" layer="1"/>
+<wire x1="30.23" y1="39.62" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<wire x1="29.23" y1="41.67" x2="29.23" y2="40.62" width="0.1524" layer="1"/>
+<wire x1="29.23" y1="40.62" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<wire x1="28.73" y1="41.67" x2="28.73" y2="41.12" width="0.1524" layer="1"/>
+<wire x1="28.73" y1="41.12" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<wire x1="30.73" y1="37.07" x2="30.73" y2="39.12" width="0.1524" layer="1"/>
+<wire x1="31.23" y1="37.07" x2="31.23" y2="38.62" width="0.1524" layer="1"/>
+<wire x1="31.23" y1="38.62" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<wire x1="29.73" y1="37.07" x2="29.73" y2="38.62" width="0.1524" layer="1"/>
+<wire x1="29.73" y1="38.62" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<wire x1="28.73" y1="37.07" x2="28.73" y2="37.62" width="0.1524" layer="1"/>
+<wire x1="28.73" y1="37.62" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<wire x1="32.78" y1="39.12" x2="30.73" y2="39.12" width="0.1524" layer="1"/>
+<wire x1="30.73" y1="39.12" x2="30.48" y2="39.37" width="0.1524" layer="1"/>
+<via x="29.591" y="38.735" extent="1-16" drill="0.35"/>
+<via x="29.464" y="32.893" extent="1-16" drill="0.35"/>
+<via x="31.75" y="43.942" extent="1-16" drill="0.35"/>
+<via x="28.448" y="43.942" extent="1-16" drill="0.35"/>
+<via x="35.306" y="38.608" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$81">
-<contactref element="ADC1" pad="10"/>
 <contactref element="C139" pad="1"/>
-<wire x1="-8.87" y1="-20.08" x2="-10.81" y2="-25.4" width="0" layer="19" extent="1-1"/>
+<contactref element="ADC1" pad="10"/>
+<wire x1="29.23" y1="37.07" x2="29.23" y2="35.555" width="0.1524" layer="1"/>
+<wire x1="29.23" y1="35.555" x2="29.337" y2="35.448" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$82">
-<contactref element="ADC1" pad="12"/>
 <contactref element="C140" pad="1"/>
-<wire x1="0.42" y1="-16.51" x2="-7.87" y2="-20.08" width="0" layer="19" extent="1-1"/>
+<contactref element="ADC1" pad="12"/>
+<wire x1="30.23" y1="37.07" x2="30.23" y2="36.448" width="0.1524" layer="1"/>
+<wire x1="30.23" y1="36.448" x2="31.496" y2="35.182" width="0.1524" layer="1"/>
 </signal>
 <signal name="CNV">
 <contactref element="ADC1" pad="15"/>
@@ -2042,10 +2097,14 @@ design rules under a new name.
 <signal name="N$83">
 <contactref element="C141" pad="1"/>
 <contactref element="ADC1" pad="28"/>
-<wire x1="-7.37" y1="-15.48" x2="-4.46" y2="-25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="30.734" y1="43.038" x2="30.734" y2="41.674" width="0.1524" layer="1"/>
+<wire x1="30.734" y1="41.674" x2="30.73" y2="41.67" width="0.1524" layer="1"/>
 </signal>
 <signal name="SDO0">
 <contactref element="ADC1" pad="17"/>
+</signal>
+<signal name="SDO1">
+<contactref element="ADC1" pad="18"/>
 </signal>
 <signal name="SDO2">
 <contactref element="ADC1" pad="23"/>
@@ -2064,40 +2123,65 @@ design rules under a new name.
 </signal>
 <signal name="ADIN0_P">
 <contactref element="ADC1" pad="8"/>
+<wire x1="28.18" y1="37.62" x2="27.5752" y2="37.62" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="37.62" x2="27.4776" y2="37.7176" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="37.7176" x2="24.892" y2="37.7176" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN0_N">
 <contactref element="ADC1" pad="7"/>
+<wire x1="28.18" y1="38.12" x2="27.5752" y2="38.12" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="38.12" x2="27.4776" y2="38.0224" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="38.0224" x2="24.892" y2="38.0224" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN1_P">
 <contactref element="ADC1" pad="6"/>
+<wire x1="28.18" y1="38.62" x2="27.5752" y2="38.62" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="38.62" x2="27.4776" y2="38.7176" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="38.7176" x2="24.892" y2="38.7176" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN1_N">
 <contactref element="ADC1" pad="5"/>
+<wire x1="28.18" y1="39.12" x2="27.5752" y2="39.12" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="39.12" x2="27.4776" y2="39.0224" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="39.0224" x2="24.892" y2="39.0224" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN2_P">
 <contactref element="ADC1" pad="4"/>
+<wire x1="28.18" y1="39.62" x2="27.5752" y2="39.62" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="39.62" x2="27.4776" y2="39.7176" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="39.7176" x2="24.892" y2="39.7176" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN2_N">
 <contactref element="ADC1" pad="3"/>
+<wire x1="28.18" y1="40.12" x2="27.5752" y2="40.12" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="40.12" x2="27.4776" y2="40.0224" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="40.0224" x2="24.892" y2="40.0224" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN3_P">
 <contactref element="ADC1" pad="2"/>
+<wire x1="28.18" y1="40.62" x2="27.5752" y2="40.62" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="40.62" x2="27.4776" y2="40.7176" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="40.7176" x2="24.892" y2="40.7176" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADIN3_N">
 <contactref element="ADC1" pad="1"/>
+<wire x1="28.18" y1="41.12" x2="27.5752" y2="41.12" width="0.1524" layer="1"/>
+<wire x1="27.5752" y1="41.12" x2="27.4776" y2="41.0224" width="0.1524" layer="1"/>
+<wire x1="27.4776" y1="41.0224" x2="24.892" y2="41.0224" width="0.1524" layer="1"/>
+</signal>
+<signal name="OVDD">
+<contactref element="C143" pad="1"/>
+<contactref element="ADC1" pad="21"/>
+<wire x1="32.78" y1="39.62" x2="32.784" y2="39.624" width="0.1524" layer="1"/>
+<wire x1="32.784" y1="39.624" x2="34.148" y2="39.624" width="0.1524" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="ADC1" pad="30"/>
 <contactref element="C142" pad="1"/>
-<wire x1="-8.37" y1="-15.48" x2="-10.81" y2="-30.48" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="ADC1" pad="21"/>
-<contactref element="C143" pad="1"/>
-<wire x1="-5.32" y1="-17.53" x2="-4.46" y2="-30.48" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SDO1">
-<contactref element="ADC1" pad="18"/>
+<contactref element="ADC1" pad="30"/>
+<wire x1="29.73" y1="41.67" x2="29.6086" y2="41.7914" width="0.1524" layer="1"/>
+<wire x1="29.6086" y1="41.7914" x2="29.6086" y2="42.03833125" width="0.1524" layer="1"/>
+<wire x1="29.6086" y1="42.03833125" x2="29.464" y2="42.18293125" width="0.1524" layer="1"/>
+<wire x1="29.464" y1="42.18293125" x2="29.464" y2="43.038" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
