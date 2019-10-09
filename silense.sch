@@ -187,99 +187,6 @@
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <fusionteam huburn="a.cGVyc29uYWw6dWUyY2M0ZjM3" projecturn="a.cGVyc29uYWw6dWUyY2M0ZjM3I0QyMDE4MTIxMDE2NDc3OTM1Ng" folderUrn="urn:adsk.wipprod:fs.folder:co.xq0JGAGFT2ihe3pezUvnUg" urn="urn:adsk.wipprod:dm.lineage:AAg0q61gRwS94bWefCl9Dg"  versionUrn="urn:adsk.wipprod:fs.file:vf.AAg0q61gRwS94bWefCl9Dg?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="c72ab1d0-09a9-31f5-60cd-05b4a7f3e05f"/>
 <libraries>
-<library name="con-coax" urn="urn:adsk.eagle:library:133">
-<description>&lt;b&gt;Coax Connectors&lt;/b&gt;&lt;p&gt;
-Radiall  and M/A COM.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="R141426" urn="urn:adsk.eagle:footprint:6171/1" library_version="1">
-<description>&lt;b&gt;BNC COAX CONNECTOR&lt;/b&gt;&lt;p&gt;
-Radiall&lt;p&gt;
-50/75 Ohm &lt;p&gt;
-Spoerle</description>
-<wire x1="-5.95" y1="-6" x2="5.95" y2="-6" width="0.254" layer="51"/>
-<wire x1="6" y1="-5.95" x2="6" y2="5.95" width="0.254" layer="51"/>
-<wire x1="5.95" y1="6" x2="-5.95" y2="6" width="0.254" layer="51"/>
-<wire x1="-6" y1="5.95" x2="-6" y2="-5.95" width="0.254" layer="51"/>
-<wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.3048" layer="21" curve="-143.130102"/>
-<wire x1="-1.5" y1="-0.5" x2="1.5" y2="-0.5" width="0.3048" layer="21" curve="143.130102"/>
-<wire x1="-4.572" y1="1.016" x2="-5.461" y2="1.016" width="0.254" layer="21"/>
-<wire x1="-5.461" y1="1.016" x2="-5.461" y2="-1.016" width="0.254" layer="21"/>
-<wire x1="-5.461" y1="-1.016" x2="-4.572" y2="-1.016" width="0.254" layer="21"/>
-<wire x1="4.572" y1="-1.016" x2="5.461" y2="-1.016" width="0.254" layer="21"/>
-<wire x1="5.461" y1="-1.016" x2="5.461" y2="1.016" width="0.254" layer="21"/>
-<wire x1="5.461" y1="1.016" x2="4.572" y2="1.016" width="0.254" layer="21"/>
-<wire x1="-6" y1="3.41" x2="-6" y2="-3.41" width="0.254" layer="21"/>
-<wire x1="3.41" y1="6" x2="-3.41" y2="6" width="0.254" layer="21"/>
-<wire x1="6" y1="-3.41" x2="6" y2="3.41" width="0.254" layer="21"/>
-<wire x1="-3.41" y1="-6" x2="3.41" y2="-6" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="4.5961" width="0.254" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.2954"/>
-<pad name="2" x="5.08" y="5.08" drill="1.2954"/>
-<pad name="3" x="-5.08" y="5.08" drill="1.2954"/>
-<pad name="4" x="-5.08" y="-5.08" drill="1.2954"/>
-<pad name="5" x="5.08" y="-5.08" drill="1.2954"/>
-<text x="-2.54" y="6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="R141426" urn="urn:adsk.eagle:package:6203/1" type="box" library_version="1">
-<description>BNC COAX CONNECTOR
-Radiall
-50/75 Ohm 
-Spoerle</description>
-<packageinstances>
-<packageinstance name="R141426"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="BU-BNC" urn="urn:adsk.eagle:symbol:6169/1" library_version="1">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.254" x2="-0.762" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.254" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="R141426" urn="urn:adsk.eagle:component:6231/1" prefix="X" library_version="1">
-<description>&lt;b&gt;BNC COAX CONNECTOR&lt;/b&gt;&lt;p&gt;
-Radiall&lt;p&gt;
-50/75 Ohm&lt;p&gt;
-Spoerle</description>
-<gates>
-<gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R141426">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2 3 4 5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6203/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="R141426161" constant="no"/>
-<attribute name="OC_FARNELL" value="4195115" constant="no"/>
-<attribute name="OC_NEWARK" value="14J7919" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="AD8334ACPZ">
 <description>&lt;AD8334ACPZ, Programmable Gain Amplifier 4, 64-Pin LFCSP VQ&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -28518,18 +28425,6 @@ todo: are names correct over multiple sheets?</text>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="J1" library="wouter" library_urn="urn:adsk.eagle:library:7442707" deviceset="FMC-LPC" device="" package3d_urn="urn:adsk.eagle:package:13520741/1"/>
-<part name="HVM_CW$1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="HVM$1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="HVP$1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="HVP_CW$1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="VDDP$1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="VDDM$1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="R141426" device="" package3d_urn="urn:adsk.eagle:package:6203/1"/>
-<part name="D3" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
-<part name="D4" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
-<part name="D13" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
-<part name="D14" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
-<part name="D15" library="dfls130l-7" deviceset="SBR3U20SA" device="SBR3U20SA" value="SBR3U20SA"/>
-<part name="D16" library="dfls130l-7" deviceset="SBR3U20SA" device="SBR3U20SA" value="SBR3U20SA"/>
 <part name="D17" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
 <part name="D18" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
 <part name="D19" library="dfls130l-7" deviceset="SBR1U200P1" device="SBR1U200P1" value="SBR1U200P1"/>
@@ -28559,11 +28454,6 @@ todo: are names correct over multiple sheets?</text>
 <text x="10.14" y="213.3" size="1.778" layer="98">input connector</text>
 <text x="299.14" y="21.3" size="1.778" layer="98">output connector</text>
 <text x="26.14" y="-48.7" size="1.778" layer="97">todo: @wouter checks which fpga connections to route</text>
-<wire x1="497.18" y1="125.92" x2="497.18" y2="85.28" width="0.1524" layer="98"/>
-<wire x1="497.18" y1="85.28" x2="591.16" y2="85.28" width="0.1524" layer="98"/>
-<wire x1="591.16" y1="85.28" x2="591.16" y2="125.92" width="0.1524" layer="98"/>
-<wire x1="591.16" y1="125.92" x2="497.18" y2="125.92" width="0.1524" layer="98"/>
-<text x="499.72" y="87.82" size="1.778" layer="98">coax connections</text>
 <wire x1="393.04" y1="125.92" x2="393.04" y2="85.28" width="0.1524" layer="98"/>
 <wire x1="393.04" y1="85.28" x2="487.02" y2="85.28" width="0.1524" layer="98"/>
 <wire x1="487.02" y1="85.28" x2="487.02" y2="125.92" width="0.1524" layer="98"/>
@@ -28602,54 +28492,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 <instance part="J1" gate="H" x="117.48" y="62.3" smashed="yes">
 <attribute name="NAME" x="117.48" y="8.452" size="1.778" layer="95" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="117.48" y="10.992" size="1.778" layer="96" ratio="20" rot="R180"/>
-</instance>
-<instance part="HVM_CW$1" gate="G$1" x="509.88" y="105.6" smashed="yes">
-<attribute name="VALUE" x="507.34" y="100.52" size="1.778" layer="96"/>
-<attribute name="NAME" x="507.34" y="108.902" size="1.778" layer="95"/>
-</instance>
-<instance part="HVM$1" gate="G$1" x="522.58" y="105.6" smashed="yes">
-<attribute name="VALUE" x="520.04" y="100.52" size="1.778" layer="96"/>
-<attribute name="NAME" x="520.04" y="108.902" size="1.778" layer="95"/>
-</instance>
-<instance part="HVP$1" gate="G$1" x="537.82" y="105.6" smashed="yes">
-<attribute name="VALUE" x="535.28" y="100.52" size="1.778" layer="96"/>
-<attribute name="NAME" x="535.28" y="108.902" size="1.778" layer="95"/>
-</instance>
-<instance part="HVP_CW$1" gate="G$1" x="550.52" y="105.6" smashed="yes">
-<attribute name="VALUE" x="547.98" y="100.52" size="1.778" layer="96"/>
-<attribute name="NAME" x="547.98" y="108.902" size="1.778" layer="95"/>
-</instance>
-<instance part="VDDP$1" gate="G$1" x="565.76" y="105.6" smashed="yes">
-<attribute name="VALUE" x="563.22" y="100.52" size="1.778" layer="96"/>
-<attribute name="NAME" x="563.22" y="108.902" size="1.778" layer="95"/>
-</instance>
-<instance part="VDDM$1" gate="G$1" x="578.46" y="105.6" smashed="yes">
-<attribute name="VALUE" x="575.92" y="100.52" size="1.778" layer="96"/>
-<attribute name="NAME" x="575.92" y="108.902" size="1.778" layer="95"/>
-</instance>
-<instance part="D3" gate="G$1" x="512.42" y="115.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="514.325" y="118.046" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="508.991" y="118.046" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="D4" gate="G$1" x="525.12" y="115.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="527.025" y="118.046" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="521.691" y="118.046" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="D13" gate="G$1" x="540.36" y="115.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="538.455" y="113.474" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="543.789" y="113.474" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D14" gate="G$1" x="553.06" y="115.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="551.155" y="113.474" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="556.489" y="113.474" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D15" gate="G$1" x="568.3" y="115.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="566.395" y="113.474" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="571.729" y="113.474" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D16" gate="G$1" x="581" y="115.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="582.905" y="118.046" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="585.191" y="125.666" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D17" gate="G$1" x="408.28" y="115.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="410.185" y="118.046" size="1.778" layer="95" rot="R270"/>
@@ -28736,30 +28578,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </busses>
 <nets>
 <net name="GND" class="2">
-<segment>
-<pinref part="HVM_CW$1" gate="G$1" pin="2"/>
-<wire x1="512.42" y1="103.06" x2="512.42" y2="100.52" width="0.1524" layer="91"/>
-<pinref part="HVM$1" gate="G$1" pin="2"/>
-<wire x1="512.42" y1="100.52" x2="525.12" y2="100.52" width="0.1524" layer="91"/>
-<wire x1="525.12" y1="100.52" x2="525.12" y2="103.06" width="0.1524" layer="91"/>
-<label x="517.5" y="97.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="HVP$1" gate="G$1" pin="2"/>
-<wire x1="540.36" y1="103.06" x2="540.36" y2="100.52" width="0.1524" layer="91"/>
-<pinref part="HVP_CW$1" gate="G$1" pin="2"/>
-<wire x1="540.36" y1="100.52" x2="553.06" y2="100.52" width="0.1524" layer="91"/>
-<wire x1="553.06" y1="100.52" x2="553.06" y2="103.06" width="0.1524" layer="91"/>
-<label x="545.44" y="97.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VDDP$1" gate="G$1" pin="2"/>
-<wire x1="568.3" y1="103.06" x2="568.3" y2="100.52" width="0.1524" layer="91"/>
-<pinref part="VDDM$1" gate="G$1" pin="2"/>
-<wire x1="568.3" y1="100.52" x2="581" y2="100.52" width="0.1524" layer="91"/>
-<wire x1="581" y1="100.52" x2="581" y2="103.06" width="0.1524" layer="91"/>
-<label x="570.84" y="97.98" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="408.28" y1="103.06" x2="408.28" y2="100.52" width="0.1524" layer="91"/>
 <wire x1="408.28" y1="100.52" x2="420.98" y2="100.52" width="0.1524" layer="91"/>
@@ -29009,11 +28827,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </net>
 <net name="HVP" class="2">
 <segment>
-<pinref part="D13" gate="G$1" pin="C"/>
-<wire x1="540.36" y1="118.3" x2="540.36" y2="120.84" width="0.1524" layer="91"/>
-<label x="537.82" y="120.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="D19" gate="G$1" pin="C"/>
 <wire x1="436.22" y1="118.3" x2="436.22" y2="120.84" width="0.1524" layer="91"/>
 <label x="433.68" y="120.84" size="1.778" layer="95"/>
@@ -29025,11 +28838,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </segment>
 </net>
 <net name="HVP_CW" class="0">
-<segment>
-<pinref part="D14" gate="G$1" pin="C"/>
-<wire x1="553.06" y1="118.3" x2="553.06" y2="120.84" width="0.1524" layer="91"/>
-<label x="547.98" y="120.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="D20" gate="G$1" pin="C"/>
 <wire x1="448.92" y1="118.3" x2="448.92" y2="120.84" width="0.1524" layer="91"/>
@@ -29043,11 +28851,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </net>
 <net name="VDDP" class="0">
 <segment>
-<pinref part="D15" gate="G$1" pin="C"/>
-<wire x1="568.3" y1="118.3" x2="568.3" y2="120.84" width="0.1524" layer="91"/>
-<label x="565.76" y="120.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="D21" gate="G$1" pin="C"/>
 <wire x1="464.16" y1="118.3" x2="464.16" y2="120.84" width="0.1524" layer="91"/>
 <label x="461.62" y="120.84" size="1.778" layer="95"/>
@@ -29059,11 +28862,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </segment>
 </net>
 <net name="VDDM" class="0">
-<segment>
-<pinref part="D16" gate="G$1" pin="A"/>
-<wire x1="581" y1="118.3" x2="581" y2="120.84" width="0.1524" layer="91"/>
-<label x="578.46" y="120.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="D22" gate="G$1" pin="A"/>
 <wire x1="476.86" y1="118.3" x2="476.86" y2="120.84" width="0.1524" layer="91"/>
@@ -29077,11 +28875,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </net>
 <net name="HVM" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="525.12" y1="118.3" x2="525.12" y2="120.84" width="0.1524" layer="91"/>
-<label x="522.58" y="120.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="D18" gate="G$1" pin="A"/>
 <wire x1="420.98" y1="118.3" x2="420.98" y2="120.84" width="0.1524" layer="91"/>
 <label x="418.44" y="120.84" size="1.778" layer="95"/>
@@ -29094,11 +28887,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 </net>
 <net name="HVM_CW" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="512.42" y1="118.3" x2="512.42" y2="120.84" width="0.1524" layer="91"/>
-<label x="507.34" y="120.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="D17" gate="G$1" pin="A"/>
 <wire x1="408.28" y1="118.3" x2="408.28" y2="120.84" width="0.1524" layer="91"/>
 <label x="403.2" y="120.84" size="1.778" layer="95"/>
@@ -29107,48 +28895,6 @@ Also note that HVP &amp; HVP_CW can be connected (only 1 voltage level wanted), 
 <pinref part="POWER_BOARD_CONN" gate="G$1" pin="6"/>
 <wire x1="550.52" y1="64.96" x2="550.52" y2="59.88" width="0.1524" layer="91"/>
 <label x="550.52" y="52.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="HVM_CW$1" gate="G$1" pin="1"/>
-<wire x1="512.42" y1="113.22" x2="512.42" y2="105.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="HVM$1" gate="G$1" pin="1"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="525.12" y1="105.6" x2="525.12" y2="113.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="D13" gate="G$1" pin="A"/>
-<pinref part="HVP$1" gate="G$1" pin="1"/>
-<wire x1="540.36" y1="113.22" x2="540.36" y2="105.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="D14" gate="G$1" pin="A"/>
-<pinref part="HVP_CW$1" gate="G$1" pin="1"/>
-<wire x1="553.06" y1="113.22" x2="553.06" y2="105.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="D15" gate="G$1" pin="A"/>
-<pinref part="VDDP$1" gate="G$1" pin="1"/>
-<wire x1="568.3" y1="113.22" x2="568.3" y2="105.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="VDDM$1" gate="G$1" pin="1"/>
-<pinref part="D16" gate="G$1" pin="C"/>
-<wire x1="581" y1="105.6" x2="581" y2="113.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
