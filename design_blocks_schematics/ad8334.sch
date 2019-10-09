@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10647,7 +10647,7 @@ Datasheet (TS53YL502MR10)</description>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="LVOUT_0"/>
+<attribute name="NET" value="IN_A"/>
 </part>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C16" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
@@ -10655,7 +10655,7 @@ Datasheet (TS53YL502MR10)</description>
 <part name="C1" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C2" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="LVOUT_0"/>
+<attribute name="NET" value="IN_B"/>
 </part>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -10664,23 +10664,23 @@ Datasheet (TS53YL502MR10)</description>
 <part name="C6" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="C7" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-CSGP_0402" device="" package3d_urn="urn:adsk.eagle:package:491821/2" technology="_885012205037" value="0.1uF"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="R2_OUT_P"/>
+<attribute name="NET" value="OUT_A_P"/>
 </part>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="R2_OUT_N"/>
+<attribute name="NET" value="OUT_A_N"/>
 </part>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="R1_OUT_N"/>
+<attribute name="NET" value="OUT_B_N"/>
 </part>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="R1_OUT_P"/>
+<attribute name="NET" value="OUT_B_P"/>
 </part>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="R2_OUT_VCM"/>
+<attribute name="NET" value="OUT_A_VCM"/>
 </part>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V--&gt;" device="">
-<attribute name="NET" value="R2_OUT_VCM"/>
+<attribute name="NET" value="OUT_B_VCM"/>
 </part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -10958,6 +10958,7 @@ Datasheet (TS53YL502MR10)</description>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="5.08" y="68.58" smashed="yes">
 <attribute name="VALUE" x="6.35" y="67.818" size="1.778" layer="96" display="off"/>
+<attribute name="NET" x="7.62" y="67.818" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="43.18" y="124.46" smashed="yes">
 <attribute name="VALUE" x="41.275" y="121.285" size="1.778" layer="96"/>
@@ -11408,11 +11409,11 @@ Datasheet (TS53YL502MR10)</description>
 <junction x="223.52" y="223.52"/>
 </segment>
 </net>
-<net name="VCM1" class="0">
+<net name="OUT_A_VCM" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCM1"/>
 <wire x1="220.98" y1="152.4" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
-<label x="220.98" y="154.94" size="1.778" layer="95" rot="R270" align="top-right"/>
+<label x="314.96" y="180.34" size="1.778" layer="95" rot="R180" align="top-right"/>
 <wire x1="220.98" y1="180.34" x2="332.74" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11846,20 +11847,6 @@ Datasheet (TS53YL502MR10)</description>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LVOUT_1" class="2">
-<segment>
-<label x="25.4" y="68.58" size="1.778" layer="95" rot="R180" align="top-right"/>
-<pinref part="D2" gate="G$1" pin="ANODE/CATHODE"/>
-<pinref part="L6" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="60.96" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<junction x="43.18" y="68.58"/>
-</segment>
-<segment>
-<label x="7.62" y="67.7418" size="1.778" layer="95" rot="R180" align="top-right"/>
-</segment>
-</net>
 <net name="VPS1_1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VPS1"/>
@@ -11876,7 +11863,7 @@ Datasheet (TS53YL502MR10)</description>
 <junction x="139.7" y="223.52"/>
 </segment>
 </net>
-<net name="LVOUT_0" class="0">
+<net name="IN_A" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="ANODE/CATHODE"/>
 <label x="22.86" y="170.18" size="1.778" layer="95"/>
@@ -11922,14 +11909,14 @@ Datasheet (TS53YL502MR10)</description>
 <wire x1="175.26" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="R1_OUT_N" class="0">
+<net name="OUT_B_N" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="309.88" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="R1_OUT_P" class="0">
+<net name="OUT_B_P" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="60.96" x2="327.66" y2="60.96" width="0.1524" layer="91"/>
@@ -11953,14 +11940,14 @@ Datasheet (TS53YL502MR10)</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="R2_OUT_P" class="0">
+<net name="OUT_A_P" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="165.1" x2="332.74" y2="165.1" width="0.1524" layer="91"/>
 <label x="314.96" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="R2_OUT_N" class="0">
+<net name="OUT_A_N" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="160.02" x2="332.74" y2="160.02" width="0.1524" layer="91"/>
@@ -11974,11 +11961,12 @@ Datasheet (TS53YL502MR10)</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VCM3" class="0">
+<net name="OUT_B_VCM" class="0">
 <segment>
 <wire x1="215.9" y1="45.72" x2="327.66" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VCM4"/>
 <wire x1="215.9" y1="76.2" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="309.88" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -12057,6 +12045,17 @@ Datasheet (TS53YL502MR10)</description>
 <wire x1="231.14" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="132.08" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
 <junction x="233.68" y="116.84"/>
+</segment>
+</net>
+<net name="IN_B" class="2">
+<segment>
+<label x="25.4" y="68.58" size="1.778" layer="95" rot="R180" align="top-right"/>
+<pinref part="D2" gate="G$1" pin="ANODE/CATHODE"/>
+<pinref part="L6" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="60.96" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<junction x="43.18" y="68.58"/>
 </segment>
 </net>
 </nets>

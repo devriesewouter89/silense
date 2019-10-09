@@ -8795,32 +8795,25 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VALUE" x="78.74" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R1" gate="G$1" x="93.98" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.4814" y="107.95" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="97.282" y="107.95" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="93.98" y="105.41" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="91.44" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.9414" y="107.95" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="94.742" y="107.95" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="91.44" y="105.41" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="127" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.81" y="89.9414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="130.81" y="94.742" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="123.19" y="91.44" size="1.778" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="R4" gate="G$1" x="127" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.81" y="87.4014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="130.81" y="92.202" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="123.19" y="88.9" size="1.778" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="R5" gate="G$1" x="127" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.81" y="77.2414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="130.81" y="82.042" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="123.19" y="78.74" size="1.778" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="R6" gate="G$1" x="127" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.81" y="74.7014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="130.81" y="79.502" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="123.19" y="76.2" size="1.778" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="R7" gate="G$1" x="127" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.81" y="72.1614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="130.81" y="76.962" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="123.19" y="73.66" size="1.778" layer="95" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -9024,8 +9017,8 @@ DIN A4, landscape with location and doc. field</description>
 <net name="/CS" class="0">
 <segment>
 <pinref part="ADC1" gate="G$1" pin="/CS"/>
-<wire x1="88.9" y1="104.14" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
-<label x="88.9" y="119.38" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<wire x1="88.9" y1="104.14" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<label x="88.9" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9124,11 +9117,6 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
-</note>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
 </note>
 </compatibility>
 </eagle>

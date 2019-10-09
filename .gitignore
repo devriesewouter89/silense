@@ -1,10 +1,3 @@
-silense_temp.b##
-silense_temp.b#1
-silense_temp.b#2
-silense_temp.b#3
-silense_temp.b#4
-silense_temp.brd
-silense_temp.s##
-silense_temp.s#1
-silense_temp.s#2
-silense_temp.sch
+*.b#*
+*.s#*
+silense_temp.*

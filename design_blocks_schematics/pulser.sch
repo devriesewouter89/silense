@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8548,8 +8548,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="VDDP1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDDP2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8751,8 +8751,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND1" gate="1" x="210.8073" y="93.9546" smashed="yes">
 <attribute name="VALUE" x="208.2673" y="91.4146" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="152.1333" y="155.0416" smashed="yes">
-<attribute name="VALUE" x="149.5933" y="152.5016" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="149.86" y="154.94" smashed="yes">
+<attribute name="VALUE" x="147.32" y="152.4" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="152.4" y="78.74" smashed="yes">
 <attribute name="VALUE" x="149.86" y="76.2" size="1.778" layer="96"/>
@@ -8796,8 +8796,12 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND4" gate="1" x="152.4" y="48.26" smashed="yes">
 <attribute name="VALUE" x="149.86" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="VDDP1" gate="G$1" x="233.68" y="147.32" smashed="yes"/>
-<instance part="VDDP2" gate="G$1" x="220.98" y="101.6" smashed="yes"/>
+<instance part="VDD1" gate="G$1" x="233.68" y="147.32" smashed="yes">
+<attribute name="VALUE" x="236.22" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VDD2" gate="G$1" x="220.98" y="99.06" smashed="yes">
+<attribute name="VALUE" x="223.52" y="104.14" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8819,13 +8823,13 @@ DIN A3, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="GND_PWR@4"/>
-<wire x1="157.48" y1="154.94" x2="157.4673" y2="157.5816" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="154.94" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="152.1333" y1="157.5816" x2="157.4673" y2="157.5816" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="STHV_0" gate="G$1" pin="GND_PWR@3"/>
-<wire x1="170.18" y1="154.94" x2="170.1673" y2="157.5816" width="0.1524" layer="91"/>
-<wire x1="157.4673" y1="157.5816" x2="170.1673" y2="157.5816" width="0.1524" layer="91"/>
-<junction x="157.4673" y="157.5816"/>
+<wire x1="170.18" y1="154.94" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<junction x="157.48" y="157.48"/>
 </segment>
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="AGND"/>
@@ -9012,20 +9016,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="C180" gate="G$1" pin="1"/>
 <wire x1="233.7943" y1="104.1146" x2="233.7943" y2="106.6546" width="0.1524" layer="91"/>
 <wire x1="233.7943" y1="106.6546" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="VDDP2" gate="G$1" pin="VDD"/>
-<wire x1="220.98" y1="99.06" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
-<label x="220.98" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="STHV_0" gate="G$1" pin="DVDD"/>
-<label x="213.36" y="132.08" size="1.778" layer="95"/>
-<pinref part="C182" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="132.08" x2="223.6343" y2="132.0546" width="0.1524" layer="91"/>
-<wire x1="223.6343" y1="132.0546" x2="223.6343" y2="144.7546" width="0.1524" layer="91"/>
-<wire x1="223.6343" y1="144.7546" x2="233.6673" y2="144.7546" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDDM" class="1">
@@ -9278,6 +9268,16 @@ DIN A3, landscape with location and doc. field</description>
 <label x="167.3733" y="80.7466" size="1.778" layer="95" rot="R270" align="top-left"/>
 </segment>
 </net>
+<net name="DVDD" class="0">
+<segment>
+<pinref part="STHV_0" gate="G$1" pin="DVDD"/>
+<label x="213.36" y="132.08" size="1.778" layer="95"/>
+<pinref part="C182" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="132.08" x2="223.6343" y2="132.0546" width="0.1524" layer="91"/>
+<wire x1="223.6343" y1="132.0546" x2="223.6343" y2="144.7546" width="0.1524" layer="91"/>
+<wire x1="223.6343" y1="144.7546" x2="233.6673" y2="144.7546" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="IN4_0" class="0">
 <segment>
 <pinref part="STHV_0" gate="G$1" pin="IN5_0"/>
@@ -9482,6 +9482,12 @@ DIN A3, landscape with location and doc. field</description>
 <net name="N$4" class="0">
 <segment>
 <wire x1="129.54" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="VDD2" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 </nets>
